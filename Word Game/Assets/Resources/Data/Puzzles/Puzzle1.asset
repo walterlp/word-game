@@ -18,123 +18,123 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
-    - C
-    - A
-    - P
-    - I
-    - T
-    - A
-    - L
-    - O
-    - L
-    - U
-  - Size: 10
-    Row:
-    - D
-    - R
-    - J
-    - X
-    - M
-    - L
-    - Y
+    - K
     - G
-    - D
-    - R
-  - Size: 10
-    Row:
-    - Z
-    - J
-    - O
-    - K
-    - R
-    - A
-    - R
-    - R
-    - O
-    - Z
-  - Size: 10
-    Row:
-    - T
-    - G
-    - I
-    - S
-    - N
-    - B
-    - Q
-    - J
-    - C
-    - K
-  - Size: 10
-    Row:
-    - K
-    - T
-    - U
-    - O
-    - M
-    - A
-    - Q
     - E
+    - R
+    - U
     - G
-    - V
+    - S
+    - U
+    - I
+    - L
   - Size: 10
     Row:
+    - J
+    - L
+    - T
+    - C
+    - U
+    - T
+    - A
+    - K
+    - B
+    - P
+  - Size: 10
+    Row:
+    - S
+    - M
+    - U
     - H
-    - B
-    - J
-    - L
-    - G
-    - M
-    - U
-    - U
+    - O
     - S
+    - S
+    - R
+    - M
+    - I
+  - Size: 10
+    Row:
+    - G
+    - H
+    - D
+    - G
+    - C
+    - Q
+    - M
+    - Q
+    - B
+    - F
+  - Size: 10
+    Row:
+    - D
+    - A
+    - F
+    - S
+    - Y
+    - A
+    - E
+    - Q
+    - S
+    - X
+  - Size: 10
+    Row:
+    - F
+    - I
+    - E
+    - A
+    - W
+    - Y
+    - Y
+    - A
+    - S
+    - M
+  - Size: 10
+    Row:
+    - Z
+    - U
+    - M
+    - S
+    - R
+    - A
+    - F
+    - M
+    - K
     - P
   - Size: 10
     Row:
-    - M
-    - G
-    - G
-    - R
-    - G
-    - A
-    - J
-    - Y
-    - R
-    - C
-  - Size: 10
-    Row:
-    - T
-    - F
-    - E
-    - N
-    - K
-    - D
     - L
-    - Q
-    - E
-    - W
-  - Size: 10
-    Row:
-    - F
-    - A
-    - O
-    - R
+    - H
+    - X
+    - S
+    - G
     - Z
-    - J
     - N
-    - F
-    - R
-    - X
+    - P
+    - Y
+    - O
   - Size: 10
     Row:
-    - O
-    - R
-    - Z
-    - T
-    - V
-    - B
-    - E
-    - X
-    - T
     - J
+    - O
+    - I
+    - P
+    - I
+    - Q
+    - K
+    - W
+    - O
+    - S
+  - Size: 10
+    Row:
+    - A
+    - Y
+    - T
+    - N
+    - D
+    - N
+    - Y
+    - W
+    - R
+    - A
   SearchWords:
   - Word: SUMMER

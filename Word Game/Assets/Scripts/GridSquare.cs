@@ -15,6 +15,7 @@ public class GridSquare : MonoBehaviour
     private bool _selected;
     private bool _clicked;
     private int _index;
+    private bool _correct;
 
     public void setIndex(int index)
     {
@@ -29,8 +30,9 @@ public class GridSquare : MonoBehaviour
     {
         _selected = false;
         _clicked = false;
+        _correct = false;
         _displayImage = GetComponent<SpriteRenderer>();
-
+        
 
     }
 
@@ -57,6 +59,11 @@ public class GridSquare : MonoBehaviour
     {
         _selected = false;
         _clicked = false;
+
+        if (_correct == true)
+            _displayImage.sprite = _correctLetterData.image;
+        else
+            _displayImage.sprite = _normalLetterData.image;
 
     }
     public void OnSelectSquare(Vector3 position)
