@@ -13,6 +13,11 @@ public class BoardData: ScriptableObject
         public string Word;
     }
     [System.Serializable]
+    public class TraduzindoWords
+    {
+        public string Traduzword;
+    }
+    [System.Serializable]
     public class BoardRow
     {
         public int Size;
@@ -44,6 +49,7 @@ public class BoardData: ScriptableObject
     
     public BoardRow[] Board;
     public List<SearchingWord> SearchWords = new List<SearchingWord>();
+    public List<TraduzindoWords> TraduzWords = new List<TraduzindoWords>();
 
     public void ClearWithEmptyString()
     {

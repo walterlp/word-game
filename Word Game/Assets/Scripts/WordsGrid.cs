@@ -80,18 +80,18 @@ public class WordsGrid : MonoBehaviour
                 foreach (var squareLetter in squares.Row)
                 {
                     var normalLetterData = alphabetData.AlphabetNormal.Find(data => data.letter == squareLetter);
-                    var selectLetterData = alphabetData.AlphabetNormal.Find(data => data.letter == squareLetter);
+                    var selectLetterData = alphabetData.AlphabetHighlighted.Find(data => data.letter == squareLetter);
                     var correctLetterData = alphabetData.AlphabetWrong.Find(data=> data.letter == squareLetter);
 
                     if (normalLetterData.image == null || selectLetterData.image == null)
                     {
                         Debug.LogError("Todos os campos no arrey tem de conter letras. erro na letra:  " + squareLetter);
-#if UNITY_EDITOR
+                       #if UNITY_EDITOR
                         if (UnityEditor.EditorApplication.isPlaying)
                         {
                             UnityEditor.EditorApplication.isPlaying = false;
                         }
-#endif
+                       #endif
 
                     }
                     else
@@ -101,6 +101,7 @@ public class WordsGrid : MonoBehaviour
                         _squareList[_squareList.Count - 1].transform.SetParent(transform);
                         _squareList[_squareList.Count - 1].GetComponent<Transform>().position = new Vector3(0f, 0f, 0f);
                         _squareList[_squareList.Count - 1].transform.localScale = squareScale;
+                        _squareList[_squareList.Count - 1].GetComponent<GridSquare>().setIndex(_squareList.Count -1);
                     }
                 }
             }

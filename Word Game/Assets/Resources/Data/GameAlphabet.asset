@@ -154,7 +154,7 @@ MonoBehaviour:
   - letter: R
     image: {fileID: 21300000, guid: a0af4e89a15d7e34e861f2b14c8d6c08, type: 3}
   - letter: S
-    image: {fileID: 21300000, guid: 8d210fdef77780b48a641a46df63a3dd, type: 3}
+    image: {fileID: 21300000, guid: fd8104639b2079f47b9473a744d02d65, type: 3}
   - letter: T
     image: {fileID: 21300000, guid: 497957c8e2c20354fbec819d4ba29332, type: 3}
   - letter: U

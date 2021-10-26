@@ -18,16 +18,16 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
-    - K
     - G
-    - E
     - R
-    - U
+    - E
+    - E
+    - N
     - G
     - S
-    - U
+    - V
     - I
-    - L
+    - K
   - Size: 10
     Row:
     - J
@@ -37,9 +37,9 @@ MonoBehaviour:
     - U
     - T
     - A
-    - K
+    - E
     - B
-    - P
+    - C
   - Size: 10
     Row:
     - S
@@ -51,7 +51,7 @@ MonoBehaviour:
     - S
     - R
     - M
-    - I
+    - A
   - Size: 10
     Row:
     - G
@@ -61,9 +61,9 @@ MonoBehaviour:
     - C
     - Q
     - M
-    - Q
+    - D
     - B
-    - F
+    - L
   - Size: 10
     Row:
     - D
@@ -72,10 +72,10 @@ MonoBehaviour:
     - S
     - Y
     - A
+    - R
     - E
-    - Q
     - S
-    - X
+    - B
   - Size: 10
     Row:
     - F
@@ -84,49 +84,49 @@ MonoBehaviour:
     - A
     - W
     - Y
-    - Y
+    - E
     - A
-    - S
+    - W
     - M
   - Size: 10
     Row:
     - Z
     - U
     - M
-    - S
+    - E
     - R
     - A
-    - F
+    - D
     - M
-    - K
+    - H
     - P
   - Size: 10
     Row:
     - L
     - H
-    - X
+    - U
     - S
     - G
     - Z
     - N
     - P
-    - Y
+    - I
     - O
   - Size: 10
     Row:
     - J
-    - O
+    - L
     - I
     - P
     - I
     - Q
     - K
     - W
-    - O
+    - T
     - S
   - Size: 10
     Row:
-    - A
+    - B
     - Y
     - T
     - N
@@ -134,7 +134,17 @@ MonoBehaviour:
     - N
     - Y
     - W
-    - R
+    - E
     - A
   SearchWords:
-  - Word: SUMMER
+  - Word: GREEN
+  - Word: BLUE
+  - Word: RED
+  - Word: BLACK
+  - Word: WHITE
+  TraduzWords:
+  - Traduzword: VERDE
+  - Traduzword: AZUL
+  - Traduzword: VERMELHO
+  - Traduzword: PRETO
+  - Traduzword: BRANCO

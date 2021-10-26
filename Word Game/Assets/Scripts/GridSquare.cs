@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GridSquare : MonoBehaviour
 {
-
+    
     public int SquareIndex { get; set;}
     private AlphabetData.LetterData _normalLetterData;
     private AlphabetData.LetterData _selectedLetterData;
@@ -14,8 +14,10 @@ public class GridSquare : MonoBehaviour
 
     private bool _selected;
     private bool _clicked;
-    private int _index;
     private bool _correct;
+    private int _index = -1;
+    
+
 
     public void setIndex(int index)
     {
@@ -41,6 +43,7 @@ public class GridSquare : MonoBehaviour
         GameEvents.OnEnableSquareSelection += OnEnableSquareSelection;
         GameEvents.OnDisableSquareSelection += OnDisableSquareSelection;
         GameEvents.OnSelectSquare += OnSelectSquare;
+        GameEvents.OnCorrectWord += CorrectWord;
     }
 
     private void OnDisable()
@@ -48,6 +51,18 @@ public class GridSquare : MonoBehaviour
         GameEvents.OnEnableSquareSelection -= OnEnableSquareSelection;
         GameEvents.OnDisableSquareSelection -= OnDisableSquareSelection;
         GameEvents.OnSelectSquare -= OnSelectSquare;
+        GameEvents.OnCorrectWord -= CorrectWord;
+    }
+
+    private void CorrectWord(string word ,List<int> squareIndexes)
+    {
+        if (_selected && squareIndexes.Contains(_index))
+        {
+            _correct = true;
+            _displayImage.sprite = _correctLetterData.image;
+        }     
+        _selected = false;
+        _clicked = false;   
     }
 
     public void OnEnableSquareSelection()
@@ -59,7 +74,6 @@ public class GridSquare : MonoBehaviour
     {
         _selected = false;
         _clicked = false;
-
         if (_correct == true)
             _displayImage.sprite = _correctLetterData.image;
         else

@@ -45,8 +45,9 @@ public class WordChecker : MonoBehaviour
         {
             Debug.DrawRay(_rayUp.origin, _rayUp.direction *4 );
             Debug.DrawRay(_rayDown.origin, _rayDown.direction * 4);
-            Debug.DrawRay(_rayLeft.origin, _rayLeft.direction * 4);
             Debug.DrawRay(_rayRight.origin, _rayRight.direction * 4);
+            Debug.DrawRay(_rayLeft.origin, _rayLeft.direction * 4);
+           
             Debug.DrawRay(_rayDiagonalLeftUp.origin, _rayDiagonalLeftUp.direction * 4);
             Debug.DrawRay(_rayDiagonalRightUp.origin, _rayDiagonalRightUp.direction * 4);
             Debug.DrawRay(_rayDiagonalLeftDown.origin, _rayDiagonalLeftDown.direction * 4);
@@ -88,6 +89,7 @@ public class WordChecker : MonoBehaviour
                 _correctSquareList.Add(squareIndex);
                 GameEvents.SelectSquareMethod(squarePosition);
                 _word += letter;
+                //Debug.Log(_word);
                 CheckWord();
             }
         }
@@ -98,11 +100,16 @@ public class WordChecker : MonoBehaviour
     
     private void CheckWord()
     {
+        
         foreach (var searchingWord in currentGameData.selectedBoardData.SearchWords)
         {
+            
             if(_word == searchingWord.Word)
             {
+                GameEvents.CorrectWordMethod(_word,_correctSquareList); 
                 _word = string.Empty;
+                _correctSquareList.Clear();
+
                 return;
             }
         }
@@ -137,7 +144,7 @@ public class WordChecker : MonoBehaviour
         {
             return _rayLeft;
         }
-        if (Mathf.Abs(direction.x - -1f) < tolerance && Mathf.Abs(direction.y) < tolerance)
+        if (Mathf.Abs(direction.x - 1f) < tolerance && Mathf.Abs(direction.y) < tolerance)
         {
             return _rayRight;
         }

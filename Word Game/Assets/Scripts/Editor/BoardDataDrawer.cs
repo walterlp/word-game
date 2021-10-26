@@ -12,10 +12,12 @@ public class BoardDataDr : Editor
 {
     private BoardData GameDataInstance => target as BoardData;
     private ReorderableList _datalist;
+    private ReorderableList _datalistaux;
 
     private void OnEnable()
     {
         InitializeReordableList(ref _datalist, "SearchWords", "Searching Words");
+        IniciandoLista(ref _datalistaux, "TraduzWords", "Traduzindo Words");
     }
     public override void OnInspectorGUI()
     {
@@ -36,7 +38,9 @@ public class BoardDataDr : Editor
 
         EditorGUILayout.Space();
         _datalist.DoLayoutList();
-
+        EditorGUILayout.Space();
+        _datalistaux.DoLayoutList();
+        
 
         serializedObject.ApplyModifiedProperties();
         if (GUI.changed)
@@ -106,6 +110,7 @@ public class BoardDataDr : Editor
         EditorGUILayout.EndHorizontal();
 
     }
+    
     private void InitializeReordableList(ref ReorderableList list, string propertyName, string listLabel)
     {
         list = new ReorderableList(serializedObject, serializedObject.FindProperty(propertyName), true, true, true, true);
@@ -118,14 +123,32 @@ public class BoardDataDr : Editor
         {
             var element = l.serializedProperty.GetArrayElementAtIndex(index);
             rect.y += 2;
-            EditorGUI.PropertyField(new Rect(rect.x,rect.y, EditorGUIUtility.labelWidth, EditorGUIUtility.singleLineHeight),
+            EditorGUI.PropertyField(new Rect(rect.x, rect.y, EditorGUIUtility.labelWidth, EditorGUIUtility.singleLineHeight),
                 element.FindPropertyRelative("Word"), GUIContent.none);
 
 
         };
 
     }
+    private void IniciandoLista(ref ReorderableList list, string propertyName, string listLabel)
+    {
+        list = new ReorderableList(serializedObject, serializedObject.FindProperty(propertyName), true, true, true, true);
+        list.drawHeaderCallback = (Rect rect) =>
+        {
+            EditorGUI.LabelField(rect, listLabel);
+        };
+        var l = list;
+        list.drawElementCallback = (Rect rect, int index, bool isActive, bool isFocused) =>
+        {
+            var element = l.serializedProperty.GetArrayElementAtIndex(index);
+            rect.y += 2;
+            EditorGUI.PropertyField(new Rect(rect.x, rect.y, EditorGUIUtility.labelWidth, EditorGUIUtility.singleLineHeight),
+                element.FindPropertyRelative("Traduzword"), GUIContent.none);
 
+
+        };
+
+    }
     private void ConvertToUpperButton()
     {
         if(GUILayout.Button("to Upper"))
