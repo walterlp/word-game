@@ -38,7 +38,7 @@ public class BoardData: ScriptableObject
         public void ClearRow()
         {
             for (int i = 0; i<Size;i++) {
-                Row[i] = " ";
+                Row[i] = "";
             }
         }
     }

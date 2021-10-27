@@ -172,6 +172,14 @@ public class BoardDataDr : Editor
                     searchWord.Word = searchWord.Word.ToUpper();
                 }
             }
+            foreach (var traduzWord in GameDataInstance.TraduzWords)
+            {
+                var errorCounter = Regex.Matches(traduzWord.Traduzword, @"[a-z]").Count;
+                if (errorCounter > 0)
+                {
+                    traduzWord.Traduzword = traduzWord.Traduzword.ToUpper();
+                }
+            }
         }
     }
 
