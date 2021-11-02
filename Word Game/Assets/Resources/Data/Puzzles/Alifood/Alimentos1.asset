@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Cor2
+  m_Name: Alimentos1
   m_EditorClassIdentifier: 
   timeSeconds: 0
   Columns: 10
@@ -18,133 +18,135 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
-    - O
-    - G
+    - B
     - D
-    - F
-    - U
-    - H
-    - Y
-    - V
+    - P
     - L
-    - E
-  - Size: 10
-    Row:
-    - M
-    - R
-    - F
-    - F
-    - B
-    - O
-    - E
-    - G
-    - E
-    - G
-  - Size: 10
-    Row:
-    - B
-    - R
-    - A
     - N
+    - F
+    - M
+    - V
+    - B
+    - C
+  - Size: 10
+    Row:
+    - H
+    - H
+    - A
+    - P
+    - M
+    - F
     - Q
+    - E
     - X
+    - H
+  - Size: 10
+    Row:
+    - F
     - Z
     - U
-    - M
+    - E
+    - Q
+    - G
+    - S
+    - R
+    - G
+    - E
+  - Size: 10
+    Row:
+    - B
+    - H
+    - G
+    - A
+    - R
     - I
-  - Size: 10
-    Row:
-    - P
-    - C
-    - L
-    - N
-    - Q
-    - H
-    - E
-    - S
-    - A
-    - E
-  - Size: 10
-    Row:
     - F
-    - G
-    - D
-    - K
-    - G
-    - Y
+    - H
     - U
+    - E
+  - Size: 10
+    Row:
+    - R
+    - E
     - T
-    - R
-    - B
-  - Size: 10
-    Row:
-    - P
+    - T
     - U
-    - R
-    - P
-    - L
-    - E
-    - C
-    - H
-    - A
-    - O
-  - Size: 10
-    Row:
-    - U
-    - D
-    - O
-    - Z
-    - C
-    - L
-    - J
-    - Y
-    - C
-    - F
-  - Size: 10
-    Row:
-    - C
-    - X
-    - Z
     - B
-    - C
-    - L
-    - L
-    - D
-    - N
-    - C
-  - Size: 10
-    Row:
-    - L
     - G
-    - H
-    - Z
+    - E
     - U
-    - O
     - S
-    - O
-    - H
-    - A
   - Size: 10
     Row:
-    - U
-    - G
-    - N
-    - A
-    - V
+    - K
     - W
-    - X
+    - C
+    - V
+    - N
+    - B
+    - T
     - E
-    - Q
+    - B
+    - E
+  - Size: 10
+    Row:
+    - E
+    - F
+    - J
+    - L
     - X
+    - R
+    - Z
+    - F
+    - C
+    - K
+  - Size: 10
+    Row:
+    - M
+    - J
+    - Z
+    - K
+    - L
+    - D
+    - H
+    - F
+    - Y
+    - E
+  - Size: 10
+    Row:
+    - H
+    - A
+    - M
+    - D
+    - O
+    - T
+    - E
+    - O
+    - I
+    - P
+  - Size: 10
+    Row:
+    - R
+    - M
+    - D
+    - I
+    - S
+    - U
+    - P
+    - C
+    - L
+    - A
   SearchWords:
-  - Word: ORANGE
-  - Word: PURPLE
-  - Word: YELLOW
-  - Word: CARAMEL
-  - Word: BEIGE
+  - Word: BREAD
+  - Word: BUTTER
+  - Word: CHEESE
+  - Word: COFFEE
+  - Word: HAM
+  - Word: JAM
   TraduzWords:
-  - Traduzword: LARANJA
-  - Traduzword: ROXO
-  - Traduzword: AMARELO
-  - Traduzword: CARAMELO
-  - Traduzword: BEGE
+  - Traduzword: PAO
+  - Traduzword: MANTEIGA
+  - Traduzword: QUEIJO
+  - Traduzword: CAFE
+  - Traduzword: PRESUNTO
+  - Traduzword: GELEIA

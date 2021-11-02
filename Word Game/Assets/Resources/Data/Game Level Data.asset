@@ -14,10 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - categoryName: Cor
-    boardData: []
+    boardData:
+    - {fileID: 11400000, guid: 81c08295fdedf814dba205b098dd69f2, type: 2}
+    - {fileID: 11400000, guid: a8153c85335a08d4fbccc4010d7addac, type: 2}
+    - {fileID: 11400000, guid: ba8dbbc5a78ee44429067f3dea16f036, type: 2}
+    - {fileID: 11400000, guid: ba77d926858dd6e40907190e563b4a60, type: 2}
   - categoryName: Alifood
-    boardData: []
+    boardData:
+    - {fileID: 11400000, guid: e0b4e347a3e11c04781344b40fbf626f, type: 2}
   - categoryName: EsportEs
-    boardData: []
+    boardData:
+    - {fileID: 11400000, guid: a553ee6c017e2c74eaf65e15895847f1, type: 2}
   - categoryName: Animauls
-    boardData: []
+    boardData:
+    - {fileID: 11400000, guid: 34890101802857943b431c66d1f360c1, type: 2}
+    - {fileID: 11400000, guid: 3318826e05cfc3f4b99a23831792caaf, type: 2}
+    - {fileID: 11400000, guid: 23b9385b1eb4b2c4ca8626373b297a2d, type: 2}
+    - {fileID: 11400000, guid: 4fad8c3a78906cd45b116c7cae9ccd74, type: 2}

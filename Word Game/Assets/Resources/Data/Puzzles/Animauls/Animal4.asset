@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Cor2
+  m_Name: Animal4
   m_EditorClassIdentifier: 
   timeSeconds: 0
   Columns: 10
@@ -18,133 +18,133 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
-    - O
     - G
-    - D
-    - F
-    - U
-    - H
-    - Y
-    - V
-    - L
-    - E
-  - Size: 10
-    Row:
-    - M
-    - R
-    - F
-    - F
-    - B
-    - O
-    - E
-    - G
-    - E
-    - G
-  - Size: 10
-    Row:
-    - B
-    - R
-    - A
-    - N
-    - Q
-    - X
-    - Z
-    - U
-    - M
     - I
-  - Size: 10
-    Row:
-    - P
-    - C
-    - L
-    - N
-    - Q
-    - H
-    - E
-    - S
+    - R
     - A
-    - E
-  - Size: 10
-    Row:
     - F
+    - F
+    - E
     - G
-    - D
-    - K
-    - G
-    - Y
-    - U
     - T
-    - R
-    - B
+    - L
   - Size: 10
     Row:
-    - P
-    - U
-    - R
-    - P
-    - L
-    - E
-    - C
-    - H
     - A
-    - O
+    - E
+    - T
+    - X
+    - A
+    - R
+    - Z
+    - W
+    - N
+    - L
   - Size: 10
     Row:
-    - U
-    - D
-    - O
     - Z
-    - C
+    - Z
+    - F
+    - D
+    - S
+    - E
+    - O
+    - H
+    - Z
+    - D
+  - Size: 10
+    Row:
+    - E
     - L
-    - J
-    - Y
-    - C
+    - G
+    - O
+    - A
+    - T
+    - P
+    - N
+    - W
+    - K
+  - Size: 10
+    Row:
+    - V
+    - G
+    - V
+    - L
+    - X
+    - A
+    - H
+    - S
+    - I
     - F
   - Size: 10
     Row:
-    - C
-    - X
-    - Z
-    - B
-    - C
-    - L
-    - L
-    - D
-    - N
-    - C
-  - Size: 10
-    Row:
-    - L
-    - G
-    - H
-    - Z
-    - U
+    - Y
     - O
-    - S
     - O
-    - H
-    - A
-  - Size: 10
-    Row:
-    - U
-    - G
-    - N
-    - A
-    - V
-    - W
-    - X
+    - P
+    - Y
     - E
-    - Q
+    - Y
+    - Z
+    - U
+    - F
+  - Size: 10
+    Row:
+    - O
+    - D
+    - S
+    - H
+    - N
+    - T
+    - U
+    - O
+    - H
+    - Y
+  - Size: 10
+    Row:
+    - N
+    - F
+    - P
+    - I
+    - J
+    - N
+    - Z
+    - X
+    - M
+    - K
+  - Size: 10
+    Row:
+    - E
+    - J
+    - U
+    - N
+    - W
+    - A
+    - P
+    - Z
+    - G
+    - S
+  - Size: 10
+    Row:
+    - N
+    - N
+    - U
+    - A
+    - H
+    - R
+    - A
+    - G
+    - D
     - X
   SearchWords:
-  - Word: ORANGE
-  - Word: PURPLE
-  - Word: YELLOW
-  - Word: CARAMEL
-  - Word: BEIGE
+  - Word: FISH
+  - Word: FOX
+  - Word: DOLPHIN
+  - Word: ANTEATER
+  - Word: GIRAFFE
   TraduzWords:
-  - Traduzword: LARANJA
-  - Traduzword: ROXO
-  - Traduzword: AMARELO
-  - Traduzword: CARAMELO
-  - Traduzword: BEGE
+  - Traduzword: PEIXE
+  - Traduzword: RAPOSA
+  - Traduzword: GOLFINHO
+  - Traduzword: TAMANDUA
+  - Traduzword: GIRAFA
