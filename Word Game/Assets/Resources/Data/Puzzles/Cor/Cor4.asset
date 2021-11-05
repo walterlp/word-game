@@ -13,163 +13,138 @@ MonoBehaviour:
   m_Name: Cor4
   m_EditorClassIdentifier: 
   timeSeconds: 0
-  Columns: 11
-  Rows: 11
+  Columns: 10
+  Rows: 10
   Board:
-  - Size: 11
-    Row:
-    - H
-    - U
-    - I
-    - P
-    - N
-    - A
-    - P
-    - U
-    - V
-    - V
-    - E
-  - Size: 11
-    Row:
-    - S
-    - Y
-    - C
-    - V
-    - S
-    - C
-    - B
-    - T
-    - S
-    - W
-    - S
-  - Size: 11
-    Row:
-    - I
-    - B
-    - E
-    - Z
-    - V
-    - Q
-    - T
-    - H
-    - K
-    - D
-    - I
-  - Size: 11
-    Row:
-    - W
-    - U
-    - W
-    - B
-    - X
-    - U
-    - A
-    - T
-    - H
-    - E
-    - O
-  - Size: 11
+  - Size: 10
     Row:
     - O
-    - B
-    - H
-    - Z
-    - R
-    - A
-    - T
-    - Q
-    - S
-    - P
-    - U
-  - Size: 11
-    Row:
-    - L
-    - U
-    - I
-    - Q
-    - Z
-    - M
-    - V
-    - P
-    - I
-    - P
-    - Q
-  - Size: 11
-    Row:
-    - L
-    - A
-    - T
-    - R
-    - B
-    - A
-    - J
-    - U
+    - G
     - D
     - F
-    - R
-  - Size: 11
-    Row:
-    - E
-    - A
-    - E
-    - V
-    - E
-    - R
-    - J
-    - T
-    - D
-    - M
     - U
-  - Size: 11
-    Row:
+    - H
     - Y
-    - O
-    - E
-    - J
     - V
-    - I
-    - O
     - L
     - E
-    - T
-    - T
-  - Size: 11
+  - Size: 10
     Row:
-    - C
-    - L
-    - X
-    - W
-    - I
-    - N
-    - W
-    - S
+    - M
     - R
+    - F
+    - F
+    - B
+    - O
+    - E
+    - G
+    - E
+    - G
+  - Size: 10
+    Row:
+    - B
+    - R
+    - A
+    - N
+    - Q
+    - X
     - Z
     - U
-  - Size: 11
+    - M
+    - I
+  - Size: 10
     Row:
+    - P
+    - C
+    - L
+    - N
+    - Q
+    - H
+    - E
     - S
     - A
-    - B
-    - I
-    - B
     - E
-    - M
+  - Size: 10
+    Row:
+    - F
+    - G
+    - D
+    - K
+    - G
+    - Y
+    - U
+    - T
+    - R
+    - B
+  - Size: 10
+    Row:
+    - P
+    - U
+    - R
+    - P
+    - L
+    - E
+    - C
+    - H
+    - A
+    - O
+  - Size: 10
+    Row:
+    - U
+    - D
+    - O
+    - Z
+    - C
+    - L
+    - J
+    - Y
+    - C
+    - F
+  - Size: 10
+    Row:
+    - C
+    - X
+    - Z
+    - B
+    - C
+    - L
+    - L
+    - D
+    - N
+    - C
+  - Size: 10
+    Row:
+    - L
+    - G
+    - H
+    - Z
+    - U
     - O
     - S
+    - O
+    - H
+    - A
+  - Size: 10
+    Row:
+    - U
+    - G
+    - N
+    - A
     - V
+    - W
+    - X
+    - E
     - Q
+    - X
   SearchWords:
-  - Word: VIOLET
-  - Word: ACQUAMARINE
-  - Word: ICEWHITE
-  - Word: TURQUOISE
-  - Word: YELLOWISH
-  - Word: REDDISH
+  - Word: ORANGE
+  - Word: PURPLE
+  - Word: YELLOW
+  - Word: CARAMEL
+  - Word: BEIGE
   TraduzWords:
-  - Traduzword: VIOLETA
-  - Traduzword: VERDE AGUA
-  - Traduzword: BRANCO GELO
-  - Traduzword: AZUL TURQUESA
-  - Traduzword: AMARELADO
-  - Traduzword: AVERMELHADO
+  - Traduzword: LARANJA
+  - Traduzword: ROXO
+  - Traduzword: AMARELO
+  - Traduzword: CARAMELO
+  - Traduzword: BEGE

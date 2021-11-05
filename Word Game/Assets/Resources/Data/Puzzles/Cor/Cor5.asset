@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Cor3
+  m_Name: Cor5
   m_EditorClassIdentifier: 
   timeSeconds: 0
   Columns: 10
@@ -18,135 +18,134 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
-    - W
+    - K
+    - B
     - H
-    - I
-    - T
-    - E
-    - Q
+    - J
+    - S
+    - H
     - M
     - K
-    - E
-    - C
+    - V
+    - P
   - Size: 10
     Row:
-    - B
-    - F
-    - R
-    - T
-    - Y
+    - H
+    - P
     - Q
-    - D
+    - A
     - J
-    - G
-    - V
-  - Size: 10
-    Row:
-    - T
-    - D
-    - H
-    - D
-    - B
-    - I
-    - G
-    - L
-    - R
-    - W
-  - Size: 10
-    Row:
-    - Z
-    - S
-    - O
+    - U
     - K
-    - B
-    - O
-    - I
-    - R
-    - E
-    - I
-  - Size: 10
-    Row:
-    - W
-    - V
-    - I
-    - J
-    - L
-    - S
-    - L
-    - L
-    - E
-    - H
-  - Size: 10
-    Row:
-    - K
-    - E
     - X
-    - S
-    - U
-    - U
+    - C
     - E
-    - U
-    - N
+  - Size: 10
+    Row:
+    - A
+    - R
+    - L
+    - C
+    - S
+    - E
     - Y
-  - Size: 10
-    Row:
-    - C
-    - J
-    - B
-    - R
-    - E
+    - G
     - D
+    - C
+  - Size: 10
+    Row:
+    - K
+    - M
+    - Z
+    - T
+    - A
+    - J
+    - K
+    - U
+    - A
+    - B
+  - Size: 10
+    Row:
+    - I
+    - A
+    - A
+    - W
+    - H
+    - A
+    - N
     - L
-    - V
+    - R
+    - F
+  - Size: 10
+    Row:
     - S
     - R
+    - J
+    - E
+    - E
+    - H
+    - I
+    - K
+    - I
+    - H
   - Size: 10
     Row:
-    - A
+    - D
     - C
-    - J
-    - S
-    - W
-    - W
+    - E
+    - B
+    - R
+    - B
+    - P
+    - C
+    - E
     - X
-    - Z
-    - Z
-    - A
   - Size: 10
     Row:
+    - P
+    - J
+    - X
+    - G
+    - B
+    - C
+    - Y
+    - X
     - L
-    - P
-    - P
-    - K
-    - V
-    - X
-    - P
-    - U
-    - W
-    - N
+    - G
   - Size: 10
     Row:
     - B
-    - A
-    - J
-    - B
-    - K
-    - Z
-    - X
+    - R
     - O
-    - F
+    - W
     - N
+    - G
+    - T
+    - X
+    - F
+    - U
+  - Size: 10
+    Row:
+    - A
+    - P
+    - F
+    - C
+    - V
+    - C
+    - K
+    - U
+    - A
+    - X
   SearchWords:
-  - Word: BLUE
-  - Word: WHITE
-  - Word: BLACK
-  - Word: GREY
-  - Word: GREEN
-  - Word: RED
+  - Word: KHAKI
+  - Word: BROWN
+  - Word: CREAM
+  - Word: MUSTARD
+  - Word: PINK
+  - Word: LILAC
   TraduzWords:
-  - Traduzword: AZUL
-  - Traduzword: BRANCO
-  - Traduzword: PRETO
-  - Traduzword: CINZA
-  - Traduzword: VERDE
-  - Traduzword: VERMELHO
+  - Traduzword: CAQUI
+  - Traduzword: CASTANHO
+  - Traduzword: CREME
+  - Traduzword: ROZA
+  - Traduzword: LILAS

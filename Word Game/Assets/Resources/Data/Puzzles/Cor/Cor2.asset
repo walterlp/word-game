@@ -13,138 +13,62 @@ MonoBehaviour:
   m_Name: Cor2
   m_EditorClassIdentifier: 
   timeSeconds: 0
-  Columns: 10
-  Rows: 10
+  Columns: 6
+  Rows: 6
   Board:
-  - Size: 10
+  - Size: 6
     Row:
-    - O
-    - G
-    - D
-    - F
-    - U
-    - H
-    - Y
-    - V
-    - L
-    - E
-  - Size: 10
-    Row:
-    - M
     - R
-    - F
-    - F
-    - B
-    - O
-    - E
-    - G
-    - E
-    - G
-  - Size: 10
-    Row:
-    - B
-    - R
-    - A
-    - N
-    - Q
-    - X
-    - Z
     - U
-    - M
-    - I
-  - Size: 10
-    Row:
-    - P
-    - C
-    - L
-    - N
-    - Q
-    - H
-    - E
-    - S
-    - A
-    - E
-  - Size: 10
-    Row:
-    - F
-    - G
+    - O
     - D
-    - K
-    - G
-    - Y
-    - U
-    - T
-    - R
     - B
-  - Size: 10
+    - B
+  - Size: 6
     Row:
-    - P
-    - U
-    - R
-    - P
-    - L
     - E
-    - C
-    - H
-    - A
-    - O
-  - Size: 10
-    Row:
-    - U
-    - D
-    - O
-    - Z
-    - C
-    - L
-    - J
-    - Y
-    - C
-    - F
-  - Size: 10
-    Row:
-    - C
-    - X
-    - Z
-    - B
-    - C
-    - L
-    - L
-    - D
-    - N
-    - C
-  - Size: 10
-    Row:
-    - L
     - G
-    - H
-    - Z
-    - U
-    - O
-    - S
-    - O
-    - H
-    - A
-  - Size: 10
-    Row:
-    - U
-    - G
-    - N
-    - A
-    - V
     - W
-    - X
+    - I
+    - H
+    - L
+  - Size: 6
+    Row:
+    - D
+    - Y
+    - M
+    - B
+    - B
+    - U
+  - Size: 6
+    Row:
+    - L
+    - P
+    - A
+    - D
     - E
+    - E
+  - Size: 6
+    Row:
+    - H
     - Q
-    - X
+    - K
+    - W
+    - A
+    - Q
+  - Size: 6
+    Row:
+    - G
+    - R
+    - E
+    - E
+    - N
+    - H
   SearchWords:
-  - Word: ORANGE
-  - Word: PURPLE
-  - Word: YELLOW
-  - Word: CARAMEL
-  - Word: BEIGE
+  - Word: RED
+  - Word: GREEN
+  - Word: BLUE
   TraduzWords:
-  - Traduzword: LARANJA
-  - Traduzword: ROXO
-  - Traduzword: AMARELO
-  - Traduzword: CARAMELO
-  - Traduzword: BEGE
+  - Traduzword: VERMELHO
+  - Traduzword: VERDE
+  - Traduzword: AZUL

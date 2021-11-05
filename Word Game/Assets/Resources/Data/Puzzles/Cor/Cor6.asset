@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
+  m_Name: Cor6
+  m_EditorClassIdentifier: 
+  timeSeconds: 0
+  Columns: 11
+  Rows: 11
+  Board:
+  - Size: 11
+    Row:
+    - H
+    - U
+    - I
+    - P
+    - N
+    - A
+    - P
+    - U
+    - V
+    - V
+    - E
+  - Size: 11
+    Row:
+    - S
+    - Y
+    - C
+    - V
+    - S
+    - C
+    - B
+    - T
+    - S
+    - W
+    - S
+  - Size: 11
+    Row:
+    - I
+    - B
+    - E
+    - Z
+    - V
+    - Q
+    - T
+    - H
+    - K
+    - D
+    - I
+  - Size: 11
+    Row:
+    - W
+    - U
+    - W
+    - B
+    - X
+    - U
+    - A
+    - T
+    - H
+    - E
+    - O
+  - Size: 11
+    Row:
+    - O
+    - B
+    - H
+    - Z
+    - R
+    - A
+    - T
+    - Q
+    - S
+    - P
+    - U
+  - Size: 11
+    Row:
+    - L
+    - U
+    - I
+    - Q
+    - Z
+    - M
+    - V
+    - P
+    - I
+    - P
+    - Q
+  - Size: 11
+    Row:
+    - L
+    - A
+    - T
+    - R
+    - B
+    - A
+    - J
+    - U
+    - D
+    - F
+    - R
+  - Size: 11
+    Row:
+    - E
+    - A
+    - E
+    - V
+    - E
+    - R
+    - J
+    - T
+    - D
+    - M
+    - U
+  - Size: 11
+    Row:
+    - Y
+    - O
+    - E
+    - J
+    - V
+    - I
+    - O
+    - L
+    - E
+    - T
+    - T
+  - Size: 11
+    Row:
+    - C
+    - L
+    - X
+    - W
+    - I
+    - N
+    - W
+    - S
+    - R
+    - Z
+    - U
+  - Size: 11
+    Row:
+    - S
+    - A
+    - B
+    - I
+    - B
+    - E
+    - M
+    - O
+    - S
+    - V
+    - Q
+  SearchWords:
+  - Word: VIOLET
+  - Word: ACQUAMARINE
+  - Word: ICEWHITE
+  - Word: TURQUOISE
+  - Word: YELLOWISH
+  - Word: REDDISH
+  TraduzWords:
+  - Traduzword: VIOLETA
+  - Traduzword: VERDE AGUA
+  - Traduzword: BRANCO GELO
+  - Traduzword: AZUL TURQUESA
+  - Traduzword: AMARELADO
+  - Traduzword: AVERMELHADO
