@@ -8,6 +8,7 @@ public class WordChecker : MonoBehaviour
 
     public GameData currentGameData;
     public GameLevelData gameLevelData;
+    
 
     private string _word;
     private int _assignedPoints = 0;
@@ -89,7 +90,7 @@ public class WordChecker : MonoBehaviour
             _currentRay = SelectRay(_rayStartPosition, squarePosition);
             GameEvents.SelectSquareMethod(squarePosition);
             _word += letter;
-            CheckWord();
+             CheckWord();
         }
         else
         {
@@ -98,7 +99,6 @@ public class WordChecker : MonoBehaviour
                 _correctSquareList.Add(squareIndex);
                 GameEvents.SelectSquareMethod(squarePosition);
                 _word += letter;
-                //Debug.Log(_word);
                 CheckWord();
             }
         }
@@ -106,23 +106,24 @@ public class WordChecker : MonoBehaviour
         
         
     }
-    
+
     private void CheckWord()
     {
         
-        foreach (var searchingWord in currentGameData.selectedBoardData.SearchWords)
-        {
-            
-            if(_word == searchingWord.Word)
+            foreach (var searchingWord in currentGameData.selectedBoardData.SearchWords)
             {
-                GameEvents.CorrectWordMethod(_word,_correctSquareList);
-                _completedWords++;
-                _word = string.Empty;
-                _correctSquareList.Clear();
-                checkBoardCompleta();
-                return;
+
+                if (_word == searchingWord.Word)
+                {
+                    GameEvents.CorrectWordMethod(_word, _correctSquareList);
+                    _completedWords++;
+                    _word = string.Empty;
+                    _correctSquareList.Clear();
+                    checkBoardCompleta();
+                    return;
+                }
             }
-        }
+        
     }
 
 

@@ -6,6 +6,7 @@ public static class GameEvents
 {
     public delegate void EnableSquareSelection();
     public static event EnableSquareSelection OnEnableSquareSelection;
+
     public static void EnableSquareSelectionMethod()
     {
         if (OnEnableSquareSelection != null)
@@ -56,15 +57,15 @@ public static class GameEvents
 
     //------------------------------------------------------------------------
 
-    public delegate void CorrectWord(string word,List<int> squareIndexes);
+    public delegate void CorrectWord(string word, List<int> squareIndexes);
     public static event CorrectWord OnCorrectWord;
 
 
-    public static void CorrectWordMethod(string word,List<int> squareIndexes)
+    public static void CorrectWordMethod(string word, List<int> squareIndexes)
     {
-        if(OnCorrectWord != null)
+        if (OnCorrectWord != null)
         {
-            OnCorrectWord(word,squareIndexes);
+            OnCorrectWord(word, squareIndexes);
         }
     }
     //------------------------------------------------------------------------
@@ -94,5 +95,15 @@ public static class GameEvents
         if (OnLoadNextLevel != null)
             OnLoadNextLevel();
     }
-    
+    //------------------------------------------------------------------------
+
+    public delegate void GameOver();
+    public static event GameOver OnGameOver;
+    public static void GameOverMethod()
+    {
+        if (OnGameOver != null)
+            OnGameOver();
+    }
+    //------------------------------------------------------------------------
+
 }

@@ -10,50 +10,48 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Cor1
+  m_Name: Moveis1
   m_EditorClassIdentifier: 
-  timeSeconds: 60
+  timeSeconds: 30
   Columns: 5
   Rows: 5
   Board:
   - Size: 5
     Row:
-    - P
-    - U
-    - O
-    - O
-    - C
-  - Size: 5
-    Row:
-    - R
+    - S
+    - I
+    - I
+    - Z
     - M
-    - L
-    - Z
-    - I
   - Size: 5
     Row:
-    - E
     - O
-    - W
-    - C
+    - Q
+    - O
+    - X
+    - Y
+  - Size: 5
+    Row:
+    - F
     - N
+    - M
+    - R
+    - X
   - Size: 5
     Row:
-    - T
-    - R
-    - I
-    - J
-    - Z
+    - A
+    - N
+    - Y
+    - P
+    - A
   - Size: 5
     Row:
     - O
-    - W
-    - J
-    - J
+    - S
+    - D
+    - R
     - A
   SearchWords:
-  - Word: PRETO
-  - Word: CINZA
+  - Word: SOFA
   TraduzWords:
-  - Traduzword: BLACK
-  - Traduzword: GREY
+  - Traduzword: SOFA

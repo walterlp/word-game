@@ -22,6 +22,9 @@ public class BoardDataDr : Editor
     public override void OnInspectorGUI()
     {
         serializedObject.Update();
+
+        GameDataInstance.timeSeconds = EditorGUILayout.FloatField("Tempo Máximo em segundos:", GameDataInstance.timeSeconds);
+
         DrawColumnsRowsInputFields();
         EditorGUILayout.Space();
         ConvertToUpperButton();
@@ -54,8 +57,8 @@ public class BoardDataDr : Editor
         var columnsTemp = GameDataInstance.Columns;
         var rowsTemp = GameDataInstance.Rows;
 
-        GameDataInstance.Columns = EditorGUILayout.IntField("Columns", GameDataInstance.Columns);
-        GameDataInstance.Rows = EditorGUILayout.IntField("Rows", GameDataInstance.Rows);
+        GameDataInstance.Columns = EditorGUILayout.IntField("Colunas", GameDataInstance.Columns);
+        GameDataInstance.Rows = EditorGUILayout.IntField("Linhas", GameDataInstance.Rows);
 
         if((GameDataInstance.Columns != columnsTemp || GameDataInstance.Rows != rowsTemp) && GameDataInstance.Columns > 0 && GameDataInstance.Rows > 0)
         {
@@ -151,7 +154,7 @@ public class BoardDataDr : Editor
     }
     private void ConvertToUpperButton()
     {
-        if(GUILayout.Button("to Upper"))
+        if(GUILayout.Button("Transformar Em Maiuscula"))
         {
             for(var i=0;i< GameDataInstance.Columns; i++)
             {
@@ -185,7 +188,7 @@ public class BoardDataDr : Editor
 
     private void ClearBoardButton()
     {
-        if(GUILayout.Button("Clear Board"))
+        if(GUILayout.Button("Limpar Tabela"))
         {
             for(int i=0; i< GameDataInstance.Columns; i++)
             {
@@ -198,7 +201,7 @@ public class BoardDataDr : Editor
     }
     private void FillUpWithRandomLettersButton()
     {
-        if (GUILayout.Button("Fill up with Random"))
+        if (GUILayout.Button("Jogar Letras Randomicas"))
         {
             for (int i = 0; i < GameDataInstance.Columns; i++)
             {

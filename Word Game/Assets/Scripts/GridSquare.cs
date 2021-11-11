@@ -9,12 +9,14 @@ public class GridSquare : MonoBehaviour
     private AlphabetData.LetterData _normalLetterData;
     private AlphabetData.LetterData _selectedLetterData;
     private AlphabetData.LetterData _correctLetterData;
+    
 
     private SpriteRenderer _displayImage;
 
     private bool _selected;
     private bool _clicked;
     private bool _correct;
+    
     private int _index = -1;
     
 
@@ -104,6 +106,7 @@ public class GridSquare : MonoBehaviour
         GameEvents.EnableSquareSelectionMethod();
         CheckSquare();
         _displayImage.sprite = _selectedLetterData.image;
+        
     }
 
     private void OnMouseEnter()
@@ -113,8 +116,8 @@ public class GridSquare : MonoBehaviour
 
     private void OnMouseUp()
     {
-        GameEvents.ClearSelectionMethod();
-        GameEvents.DisebleSquareSelectionMethod();
+            GameEvents.ClearSelectionMethod();
+            GameEvents.DisebleSquareSelectionMethod();
     }
 
 
