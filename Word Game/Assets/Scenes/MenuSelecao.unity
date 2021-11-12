@@ -403,7 +403,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b5126b0910d99048b953158ada9f0cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 0}
 --- !u!1 &584752749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,7 +1356,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 500590212}
         m_TargetAssemblyTypeName: GameUtility, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 5
