@@ -5,8 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class GameUtility : MonoBehaviour
 {
-   public void LoadScene(string sceneName)
+
+    
+    //transição de telas com base no nome
+    public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+        
+    }
+
+
+    //encerrando aplicação
+    public void ExitApp()
+    {
+        Application.Quit();
     }
 }

@@ -18,5 +18,6 @@ public class GameLevelData : ScriptableObject
 
     public List<CategoryRecord> data;
 
+    
 
 }

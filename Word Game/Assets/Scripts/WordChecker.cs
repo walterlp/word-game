@@ -120,6 +120,7 @@ public class WordChecker : MonoBehaviour
                     _word = string.Empty;
                     _correctSquareList.Clear();
                     checkBoardCompleta();
+                    
                     return;
                 }
             }

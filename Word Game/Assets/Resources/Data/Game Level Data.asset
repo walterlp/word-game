@@ -36,3 +36,6 @@ MonoBehaviour:
   - categoryName: Moveis
     boardData:
     - {fileID: 11400000, guid: fff34c5a73547c84685a44062347e6f1, type: 2}
+  - categoryName: Paises
+    boardData:
+    - {fileID: 11400000, guid: f0f3cf666ee39164b90ff21ab0253dc0, type: 2}

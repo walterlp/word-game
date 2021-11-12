@@ -8,6 +8,7 @@ public class GameOverNotification : MonoBehaviour
 
     public GameObject gameOverNoti;
     public GameObject continuarJogando;
+    public GameLevelData gameLevelData;
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class GameOverNotification : MonoBehaviour
     private void ShowGameOverNoti()
     {
         gameOverNoti.SetActive(true);
+        
         continuarJogando.GetComponent<Button>().interactable = false;
     }
 }

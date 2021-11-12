@@ -18,6 +18,7 @@ public class DataSaver : MonoBehaviour
     {
         PlayerPrefs.SetInt(categoryName,currentIndex);
         PlayerPrefs.Save();
+        
     }
 
     public static void ClearGameData(GameLevelData levelData)
