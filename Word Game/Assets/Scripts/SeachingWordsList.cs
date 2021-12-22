@@ -13,7 +13,7 @@ public class SeachingWordsList : MonoBehaviour
     private int _columns = 2;
     private int _rows = 2;
     private int _wordsNumber;
-
+  
     private List<GameObject> _words = new List<GameObject>();
     //private List<GameObject> _twords = new List<GameObject>();
 
@@ -30,7 +30,7 @@ public class SeachingWordsList : MonoBehaviour
         setWordsPosition();
 
     }
-
+    
     private void CalculateColumnsAndRowsNumber()
     {
         do

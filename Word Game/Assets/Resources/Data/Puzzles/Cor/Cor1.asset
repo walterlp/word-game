@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
   m_Name: Cor1
   m_EditorClassIdentifier: 
-  timeSeconds: 60
+  timeSeconds: 5
   Columns: 5
   Rows: 5
   Board:
@@ -52,8 +52,10 @@ MonoBehaviour:
     - J
     - A
   SearchWords:
-  - Word: PRETO
-  - Word: CINZA
+  - Achado: 0
+    Word: PRETO
+  - Achado: 0
+    Word: CINZA
   TraduzWords:
   - Traduzword: BLACK
   - Traduzword: GREY

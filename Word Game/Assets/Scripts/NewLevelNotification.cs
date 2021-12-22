@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class NewLevelNotification : MonoBehaviour
 {
-    
+    private AudioSource _audi;
+
     [System.Serializable]
     public struct categoryName
     {
@@ -21,6 +22,7 @@ public class NewLevelNotification : MonoBehaviour
 
     void Start()
     {
+        _audi = GetComponent<AudioSource>();
         winNotification.SetActive(false);
 
         GameEvents.OnUnlockNextCategory += OnUnlockNextCategory;
@@ -49,6 +51,8 @@ public class NewLevelNotification : MonoBehaviour
         }
 
         winNotification.SetActive(true);
+        if (SoundManager.instance.FundoestaMutado() == false)
+            _audi.Play();
     }
 
 

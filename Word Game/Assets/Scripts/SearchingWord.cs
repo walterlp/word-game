@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+using UnityEngine.Events;
+
 public class SearchingWord : MonoBehaviour
 {
 
@@ -11,11 +13,15 @@ public class SearchingWord : MonoBehaviour
 
     private string _word;
     
+    
+
+  
 
     void Start()
     {
         
     }
+    
 
     private void OnEnable()
     {
@@ -31,6 +37,7 @@ public class SearchingWord : MonoBehaviour
         _word = word;
         displayedText.text = traduz;
     }
+    
     private void CorrectWord(string word, List<int> squareIndexes)
     {
         if(word == _word)
@@ -38,4 +45,5 @@ public class SearchingWord : MonoBehaviour
             crossLine.gameObject.SetActive(true);
         }
     }
+    
 }

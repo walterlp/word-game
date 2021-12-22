@@ -43,7 +43,7 @@ MonoBehaviour:
   - Size: 10
     Row:
     - A
-    - R
+    - M
     - L
     - C
     - S
@@ -55,7 +55,7 @@ MonoBehaviour:
   - Size: 10
     Row:
     - K
-    - M
+    - A
     - Z
     - T
     - A
@@ -67,7 +67,7 @@ MonoBehaviour:
   - Size: 10
     Row:
     - I
-    - A
+    - E
     - A
     - W
     - H
@@ -95,7 +95,7 @@ MonoBehaviour:
     - E
     - B
     - R
-    - B
+    - L
     - P
     - C
     - E
@@ -137,12 +137,18 @@ MonoBehaviour:
     - A
     - X
   SearchWords:
-  - Word: KHAKI
-  - Word: BROWN
-  - Word: CREAM
-  - Word: MUSTARD
-  - Word: PINK
-  - Word: LILAC
+  - Achado: 1
+    Word: KHAKI
+  - Achado: 1
+    Word: BROWN
+  - Achado: 0
+    Word: CREAM
+  - Achado: 1
+    Word: MUSTARD
+  - Achado: 1
+    Word: PINK
+  - Achado: 1
+    Word: LILAC
   TraduzWords:
   - Traduzword: CAQUI
   - Traduzword: CASTANHO

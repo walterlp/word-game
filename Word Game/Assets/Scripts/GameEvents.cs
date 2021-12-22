@@ -106,4 +106,15 @@ public static class GameEvents
     }
     //------------------------------------------------------------------------
 
+    public delegate void MudaSomEfeito();
+    public static event MudaSomEfeito OnMudaSomEfeito;
+    public static void OnMudaSomEfeitoMethod()
+    {
+        if (OnMudaSomEfeito != null)
+            OnMudaSomEfeito();
+    }
+    //------------------------------------------------------------------------
+
+
+
 }

@@ -20,4 +20,13 @@ public class GameUtility : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void MuteToggleBackGroundMusic()
+    {
+        SoundManager.instance.MudaSomFundo();
+    }
+    public void MuteToggleSoundFx()
+    {
+        SoundManager.instance.MudaSomEfeito();
+    }
 }

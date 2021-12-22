@@ -16,6 +16,7 @@ public class TimerClock : MonoBehaviour
 
     private bool _pausa;
     private bool _paraRelogio;
+    
 
     void Start()
     {
@@ -23,7 +24,8 @@ public class TimerClock : MonoBehaviour
         _pausa = false;
         _temporestante = currentGameData.selectedBoardData.timeSeconds;
         _segundoAmenos = _temporestante - 1f;
-
+        
+       
         GameEvents.OnBoardCompleted += ParaRelogio;
         GameEvents.OnUnlockNextCategory += ParaRelogio;
     }
@@ -63,6 +65,8 @@ public class TimerClock : MonoBehaviour
             else
             {
                 _paraRelogio = true;
+                
+                
                 AtivarGameOverGUI();
             }
         }
@@ -72,8 +76,10 @@ public class TimerClock : MonoBehaviour
 
     private void AtivarGameOverGUI()
     {
+        
         GameEvents.GameOverMethod();
         _paraRelogio = true;
-
+        
+            
     }
 }

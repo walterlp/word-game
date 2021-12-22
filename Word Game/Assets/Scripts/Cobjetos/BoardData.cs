@@ -10,6 +10,8 @@ public class BoardData: ScriptableObject
     [System.Serializable]
     public class SearchingWord
     {
+        [HideInInspector ]
+        public bool Achado = false;
         public string Word;
     }
     [System.Serializable]
@@ -50,6 +52,14 @@ public class BoardData: ScriptableObject
     public BoardRow[] Board;
     public List<SearchingWord> SearchWords = new List<SearchingWord>();
     public List<TraduzindoWords> TraduzWords = new List<TraduzindoWords>();
+
+    public void ClearData()
+    {
+        foreach(var word in SearchWords)
+        {
+            word.Achado = false;
+        }
+    }
 
     public void ClearWithEmptyString()
     {

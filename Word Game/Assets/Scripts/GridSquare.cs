@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class GridSquare : MonoBehaviour
 {
     
@@ -16,7 +17,9 @@ public class GridSquare : MonoBehaviour
     private bool _selected;
     private bool _clicked;
     private bool _correct;
-    
+
+    private AudioSource _source;
+
     private int _index = -1;
     
 
@@ -36,7 +39,7 @@ public class GridSquare : MonoBehaviour
         _clicked = false;
         _correct = false;
         _displayImage = GetComponent<SpriteRenderer>();
-        
+        _source = GetComponent<AudioSource>();
 
     }
 
@@ -125,6 +128,9 @@ public class GridSquare : MonoBehaviour
     {
         if(_selected == false && _clicked == true)
         {
+            if (SoundManager.instance.EfeitoestaMutado() == false)
+                _source.Play();
+
             _selected = true;
             GameEvents.CheckSquareMethod(_normalLetterData.letter, gameObject.transform.position, _index);
         }

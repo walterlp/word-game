@@ -8,9 +8,13 @@ using UnityEngine;
 [CreateAssetMenu]
 public class GameLevelData : ScriptableObject
 {
+    
+    
+
     [System.Serializable]
     public struct CategoryRecord
     {
+        public int pontuacao;
         public string categoryName;
         public List<BoardData> boardData;
 
