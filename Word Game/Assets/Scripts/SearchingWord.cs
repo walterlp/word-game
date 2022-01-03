@@ -21,7 +21,7 @@ public class SearchingWord : MonoBehaviour
     {
         
     }
-    
+   
 
     private void OnEnable()
     {

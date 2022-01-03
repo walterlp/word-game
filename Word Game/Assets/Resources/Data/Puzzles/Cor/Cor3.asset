@@ -12,141 +12,101 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
   m_Name: Cor3
   m_EditorClassIdentifier: 
-  timeSeconds: 120
-  Columns: 10
-  Rows: 10
+  timeSeconds: 80
+  Columns: 8
+  Rows: 8
   Board:
-  - Size: 10
+  - Size: 8
+    Row:
+    - R
+    - R
+    - T
+    - B
+    - A
+    - U
+    - L
+    - B
+  - Size: 8
     Row:
     - W
-    - H
-    - I
+    - X
+    - N
+    - N
+    - L
     - T
-    - E
-    - Q
+    - D
+    - L
+  - Size: 8
+    Row:
+    - N
+    - X
     - M
-    - K
-    - E
-    - C
-  - Size: 10
-    Row:
-    - B
-    - F
+    - M
     - R
-    - T
-    - Y
-    - Q
+    - A
+    - X
+    - U
+  - Size: 8
+    Row:
     - D
-    - J
+    - A
+    - V
+    - B
     - G
-    - V
-  - Size: 10
+    - W
+    - C
+    - E
+  - Size: 8
     Row:
+    - E
+    - W
+    - V
+    - S
+    - R
+    - D
+    - R
+    - K
+  - Size: 8
+    Row:
+    - W
+    - H
+    - I
     - T
-    - D
-    - H
-    - D
-    - B
-    - I
-    - G
-    - L
-    - R
-    - W
-  - Size: 10
-    Row:
-    - Z
-    - S
-    - O
-    - K
-    - B
-    - O
-    - I
-    - R
     - E
-    - I
-  - Size: 10
-    Row:
-    - W
-    - V
-    - I
     - J
-    - L
-    - S
-    - L
-    - L
-    - E
-    - H
-  - Size: 10
+    - B
+    - V
+  - Size: 8
     Row:
-    - K
-    - E
     - X
-    - S
-    - U
-    - U
-    - E
-    - U
-    - N
     - Y
-  - Size: 10
-    Row:
-    - C
-    - J
-    - B
-    - R
-    - E
-    - D
-    - L
-    - V
-    - S
-    - R
-  - Size: 10
-    Row:
-    - A
-    - C
-    - J
-    - S
-    - W
-    - W
-    - X
-    - Z
-    - Z
-    - A
-  - Size: 10
-    Row:
-    - L
-    - P
-    - P
-    - K
-    - V
-    - X
-    - P
-    - U
-    - W
-    - N
-  - Size: 10
-    Row:
-    - B
-    - A
-    - J
-    - B
-    - K
-    - Z
-    - X
     - O
-    - F
+    - G
+    - Y
+    - E
     - N
+    - Z
+  - Size: 8
+    Row:
+    - R
+    - N
+    - P
+    - H
+    - G
+    - I
+    - L
+    - G
   SearchWords:
-  - Word: BLUE
-  - Word: WHITE
-  - Word: BLACK
-  - Word: GREY
-  - Word: GREEN
-  - Word: RED
+  - Achado: 0
+    Word: BLUE
+  - Achado: 0
+    Word: WHITE
+  - Achado: 0
+    Word: BLACK
+  - Achado: 0
+    Word: GREY
   TraduzWords:
   - Traduzword: AZUL
   - Traduzword: BRANCO
   - Traduzword: PRETO
   - Traduzword: CINZA
-  - Traduzword: VERDE
-  - Traduzword: VERMELHO

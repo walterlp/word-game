@@ -12,191 +12,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
   m_Name: Esportes1
   m_EditorClassIdentifier: 
-  timeSeconds: 160
-  Columns: 12
-  Rows: 12
+  timeSeconds: 50
+  Columns: 6
+  Rows: 6
   Board:
-  - Size: 12
+  - Size: 6
     Row:
-    - P
-    - S
-    - L
-    - W
-    - A
-    - K
-    - C
-    - C
-    - E
-    - Z
-    - S
-    - D
-  - Size: 12
-    Row:
-    - Q
-    - O
-    - Y
-    - J
-    - K
-    - U
-    - M
-    - E
+    - B
     - H
-    - I
-    - Q
-    - F
-  - Size: 12
-    Row:
-    - Y
-    - C
-    - L
-    - A
-    - D
-    - S
-    - B
     - X
-    - N
-    - S
-    - O
-    - B
-  - Size: 12
-    Row:
-    - W
-    - C
-    - P
-    - O
-    - O
-    - I
-    - W
-    - N
-    - Z
-    - A
-    - T
-    - A
-  - Size: 12
-    Row:
-    - O
-    - E
-    - P
-    - B
-    - P
-    - R
-    - E
+    - V
+    - J
     - G
-    - E
-    - B
-    - F
-    - S
-  - Size: 12
+  - Size: 6
     Row:
+    - O
+    - W
+    - W
+    - D
+    - O
+    - N
+  - Size: 6
+    Row:
+    - X
     - H
-    - R
-    - F
-    - U
-    - A
-    - T
+    - L
+    - L
     - D
-    - Y
-    - M
-    - X
-    - P
-    - K
-  - Size: 12
+    - H
+  - Size: 6
     Row:
-    - T
-    - N
-    - S
-    - J
-    - Q
-    - S
-    - E
-    - L
-    - Z
-    - U
-    - B
-    - E
-  - Size: 12
-    Row:
-    - M
     - I
-    - A
-    - K
-    - A
-    - Z
-    - E
-    - X
-    - K
-    - J
-    - Y
-    - T
-  - Size: 12
-    Row:
-    - Q
-    - C
-    - L
+    - V
+    - F
+    - M
+    - W
     - G
-    - S
-    - J
-    - M
-    - B
-    - M
-    - A
-    - V
-    - B
-  - Size: 12
+  - Size: 6
     Row:
-    - T
     - N
-    - O
-    - I
-    - R
-    - P
-    - R
-    - Q
-    - A
-    - D
-    - I
-    - A
-  - Size: 12
-    Row:
-    - J
-    - L
-    - F
-    - W
-    - W
-    - J
-    - J
-    - O
-    - V
-    - L
-    - U
-    - L
-  - Size: 12
-    Row:
-    - F
-    - O
-    - O
-    - T
-    - B
-    - A
-    - L
-    - L
+    - Y
+    - M
     - X
+    - C
+    - G
+  - Size: 6
+    Row:
+    - G
+    - C
     - T
-    - L
+    - V
+    - W
     - L
   SearchWords:
-  - Word: SOCCER
-  - Word: FOOTBALL
-  - Word: BASEBALL
-  - Word: BASKETBALL
-  - Word: POLO
-  - Word: TENNIS
-  - Word: GOLF
+  - Achado: 0
+    Word: BOXING
+  - Achado: 0
+    Word: GOLF
   TraduzWords:
-  - Traduzword: FUTEBOL
-  - Traduzword: FUTEBOL AMERICANO
-  - Traduzword: BEISEBALL
-  - Traduzword: BASQUETE
-  - Traduzword: POLO
-  - Traduzword: TENIS
+  - Traduzword: BOXE
   - Traduzword: GOLFE

@@ -10,103 +10,100 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Animal3
+  m_Name: Esportes2
   m_EditorClassIdentifier: 
-  timeSeconds: 80
+  timeSeconds: 70
   Columns: 8
   Rows: 8
   Board:
   - Size: 8
     Row:
-    - R
-    - E
-    - R
-    - U
-    - G
-    - O
-    - A
-    - T
-  - Size: 8
-    Row:
-    - N
-    - S
-    - G
-    - H
-    - T
-    - D
-    - G
-    - D
-  - Size: 8
-    Row:
-    - D
-    - L
-    - Z
-    - U
-    - B
-    - O
-    - O
-    - K
-  - Size: 8
-    Row:
-    - O
-    - P
-    - I
-    - O
-    - F
-    - G
-    - G
-    - T
-  - Size: 8
-    Row:
-    - N
-    - D
-    - P
-    - P
-    - Q
     - J
-    - L
-    - K
-  - Size: 8
-    Row:
-    - K
-    - L
+    - V
+    - F
+    - F
+    - X
     - B
-    - A
-    - I
-    - T
-    - R
+    - W
     - S
   - Size: 8
     Row:
-    - E
-    - A
-    - A
-    - X
-    - R
-    - H
+    - G
     - U
-    - Z
+    - F
+    - I
+    - S
+    - A
+    - S
+    - O
+  - Size: 8
+    Row:
+    - V
+    - O
+    - D
+    - O
+    - O
+    - S
+    - W
+    - C
+  - Size: 8
+    Row:
+    - P
+    - Y
+    - R
+    - O
+    - O
+    - E
+    - M
+    - C
+  - Size: 8
+    Row:
+    - T
+    - N
+    - D
+    - I
+    - V
+    - B
+    - S
+    - E
+  - Size: 8
+    Row:
+    - J
+    - V
+    - P
+    - P
+    - R
+    - A
+    - D
+    - R
+  - Size: 8
+    Row:
+    - G
+    - K
+    - U
+    - O
+    - Q
+    - L
+    - P
+    - X
   - Size: 8
     Row:
     - Y
-    - V
-    - D
-    - M
     - A
-    - C
-    - O
-    - W
+    - M
+    - E
+    - A
+    - L
+    - E
+    - K
   SearchWords:
   - Achado: 0
-    Word: DOG
+    Word: JUDO
   - Achado: 0
-    Word: DONKEY
+    Word: BASEBALL
   - Achado: 0
-    Word: GOAT
-  - Achado: 0
-    Word: COW
+    Word: SOCCER
   TraduzWords:
-  - Traduzword: CACHORRO
-  - Traduzword: BURRO
-  - Traduzword: CABRA
-  - Traduzword: VACA
+  - Traduzword: JUDO
+  - Traduzword: BEISEBOL
+  - Traduzword: FUTEBOL

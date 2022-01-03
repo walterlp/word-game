@@ -10,103 +10,100 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Animal3
+  m_Name: Paises2
   m_EditorClassIdentifier: 
-  timeSeconds: 80
+  timeSeconds: 70
   Columns: 8
   Rows: 8
   Board:
   - Size: 8
     Row:
-    - R
-    - E
-    - R
-    - U
-    - G
-    - O
-    - A
-    - T
-  - Size: 8
-    Row:
-    - N
-    - S
-    - G
-    - H
-    - T
-    - D
-    - G
-    - D
-  - Size: 8
-    Row:
-    - D
-    - L
-    - Z
-    - U
-    - B
-    - O
-    - O
-    - K
-  - Size: 8
-    Row:
-    - O
-    - P
-    - I
-    - O
-    - F
-    - G
-    - G
-    - T
-  - Size: 8
-    Row:
-    - N
-    - D
-    - P
-    - P
-    - Q
-    - J
-    - L
-    - K
-  - Size: 8
-    Row:
-    - K
-    - L
-    - B
-    - A
-    - I
-    - T
-    - R
-    - S
-  - Size: 8
-    Row:
-    - E
-    - A
-    - A
-    - X
-    - R
-    - H
-    - U
-    - Z
-  - Size: 8
-    Row:
-    - Y
     - V
+    - Y
+    - K
     - D
-    - M
+    - L
+    - K
+    - B
     - A
+  - Size: 8
+    Row:
     - C
+    - M
     - O
+    - E
+    - Z
+    - W
+    - X
+    - I
+  - Size: 8
+    Row:
+    - J
+    - G
+    - X
+    - N
+    - D
+    - I
+    - V
+    - T
+  - Size: 8
+    Row:
+    - N
+    - H
+    - S
+    - M
+    - U
+    - V
+    - S
+    - A
+  - Size: 8
+    Row:
+    - P
+    - L
+    - D
+    - A
+    - O
+    - J
+    - O
+    - O
+  - Size: 8
+    Row:
+    - D
+    - K
+    - L
+    - R
+    - O
+    - B
+    - B
+    - R
+  - Size: 8
+    Row:
+    - P
+    - T
+    - W
+    - K
+    - T
+    - Z
+    - F
+    - C
+  - Size: 8
+    Row:
+    - F
+    - R
+    - A
+    - N
+    - C
+    - E
+    - J
     - W
   SearchWords:
   - Achado: 0
-    Word: DOG
+    Word: DENMARK
   - Achado: 0
-    Word: DONKEY
+    Word: CROATIA
   - Achado: 0
-    Word: GOAT
-  - Achado: 0
-    Word: COW
+    Word: FRANCE
   TraduzWords:
-  - Traduzword: CACHORRO
-  - Traduzword: BURRO
-  - Traduzword: CABRA
-  - Traduzword: VACA
+  - Traduzword: DINAMARCA
+  - Traduzword: CROACIA
+  - Traduzword: "FRAN\xC7A"

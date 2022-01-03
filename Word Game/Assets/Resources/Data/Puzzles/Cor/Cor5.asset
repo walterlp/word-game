@@ -19,140 +19,140 @@ MonoBehaviour:
   - Size: 10
     Row:
     - K
-    - B
-    - H
-    - J
-    - S
-    - H
-    - M
-    - K
-    - V
-    - P
-  - Size: 10
-    Row:
-    - H
-    - P
     - Q
-    - A
+    - E
+    - V
     - J
     - U
-    - K
+    - Y
     - X
-    - C
-    - E
-  - Size: 10
-    Row:
-    - A
     - M
-    - L
-    - C
-    - S
-    - E
+    - B
+  - Size: 10
+    Row:
+    - H
+    - J
+    - P
     - Y
     - G
-    - D
-    - C
+    - I
+    - N
+    - R
+    - E
+    - L
+  - Size: 10
+    Row:
+    - A
+    - Q
+    - T
+    - P
+    - I
+    - N
+    - K
+    - G
+    - H
+    - A
   - Size: 10
     Row:
     - K
-    - A
-    - Z
-    - T
-    - A
-    - J
+    - W
     - K
     - U
-    - A
-    - B
-  - Size: 10
-    Row:
     - I
-    - E
-    - A
-    - W
-    - H
-    - A
-    - N
-    - L
-    - R
-    - F
-  - Size: 10
-    Row:
-    - S
-    - R
-    - J
-    - E
-    - E
-    - H
-    - I
+    - G
     - K
+    - T
+    - Q
+    - C
+  - Size: 10
+    Row:
     - I
-    - H
-  - Size: 10
-    Row:
-    - D
-    - C
-    - E
-    - B
+    - V
+    - I
     - R
-    - L
-    - P
     - C
-    - E
-    - X
-  - Size: 10
-    Row:
-    - P
     - J
     - X
-    - G
-    - B
-    - C
-    - Y
-    - X
-    - L
-    - G
+    - I
+    - M
+    - K
   - Size: 10
     Row:
+    - H
+    - N
+    - C
+    - P
+    - J
+    - W
+    - J
     - B
+    - E
+    - U
+  - Size: 10
+    Row:
+    - V
+    - J
+    - J
+    - L
+    - M
+    - Y
+    - U
     - R
+    - S
+    - J
+  - Size: 10
+    Row:
+    - R
+    - U
+    - P
+    - E
+    - S
+    - L
+    - T
+    - O
+    - M
+    - Y
+  - Size: 10
+    Row:
+    - Z
+    - D
+    - V
+    - U
+    - Y
+    - O
     - O
     - W
-    - N
-    - G
-    - T
-    - X
-    - F
-    - U
+    - M
+    - H
   - Size: 10
     Row:
-    - A
-    - P
-    - F
+    - B
+    - E
+    - I
+    - G
+    - E
     - C
-    - V
-    - C
-    - K
-    - U
-    - A
-    - X
+    - T
+    - N
+    - M
+    - Y
   SearchWords:
   - Achado: 1
     Word: KHAKI
   - Achado: 1
     Word: BROWN
   - Achado: 0
-    Word: CREAM
-  - Achado: 1
-    Word: MUSTARD
+    Word: BEIGE
+  - Achado: 0
+    Word: PURPLE
   - Achado: 1
     Word: PINK
   - Achado: 1
-    Word: LILAC
+    Word: BLACK
   TraduzWords:
   - Traduzword: CAQUI
-  - Traduzword: CASTANHO
-  - Traduzword: CREME
-  - Traduzword: MOSTARDA
-  - Traduzword: ROZA
-  - Traduzword: LILAS
+  - Traduzword: MARROM
+  - Traduzword: BEGE
+  - Traduzword: ROXO
+  - Traduzword: ROSA
+  - Traduzword: PRETO

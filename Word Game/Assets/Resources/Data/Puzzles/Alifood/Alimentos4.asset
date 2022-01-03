@@ -10,103 +10,109 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Animal3
+  m_Name: Alimentos4
   m_EditorClassIdentifier: 
-  timeSeconds: 80
+  timeSeconds: 120
   Columns: 8
   Rows: 8
   Board:
   - Size: 8
     Row:
-    - R
-    - E
-    - R
-    - U
-    - G
-    - O
-    - A
-    - T
-  - Size: 8
-    Row:
-    - N
     - S
-    - G
-    - H
-    - T
-    - D
-    - G
-    - D
-  - Size: 8
-    Row:
-    - D
+    - A
     - L
-    - Z
-    - U
-    - B
-    - O
-    - O
-    - K
-  - Size: 8
-    Row:
-    - O
-    - P
-    - I
-    - O
-    - F
-    - G
-    - G
-    - T
-  - Size: 8
-    Row:
-    - N
+    - A
     - D
-    - P
-    - P
-    - Q
-    - J
-    - L
-    - K
-  - Size: 8
-    Row:
-    - K
-    - L
-    - B
-    - A
-    - I
-    - T
-    - R
-    - S
-  - Size: 8
-    Row:
-    - E
-    - A
-    - A
-    - X
-    - R
-    - H
-    - U
-    - Z
-  - Size: 8
-    Row:
-    - Y
-    - V
-    - D
-    - M
-    - A
-    - C
-    - O
     - W
+    - X
+    - J
+  - Size: 8
+    Row:
+    - A
+    - P
+    - I
+    - Q
+    - F
+    - H
+    - V
+    - U
+  - Size: 8
+    Row:
+    - N
+    - P
+    - P
+    - T
+    - O
+    - E
+    - C
+    - I
+  - Size: 8
+    Row:
+    - D
+    - L
+    - G
+    - U
+    - J
+    - Z
+    - C
+    - C
+  - Size: 8
+    Row:
+    - W
+    - E
+    - R
+    - R
+    - E
+    - M
+    - B
+    - E
+  - Size: 8
+    Row:
+    - I
+    - T
+    - Z
+    - T
+    - S
+    - A
+    - O
+    - T
+  - Size: 8
+    Row:
+    - C
+    - L
+    - C
+    - W
+    - H
+    - W
+    - B
+    - A
+  - Size: 8
+    Row:
+    - H
+    - J
+    - B
+    - T
+    - E
+    - C
+    - I
+    - R
   SearchWords:
   - Achado: 0
-    Word: DOG
+    Word: SANDWICH
   - Achado: 0
-    Word: DONKEY
+    Word: SALAD
   - Achado: 0
-    Word: GOAT
+    Word: RICE
   - Achado: 0
-    Word: COW
+    Word: APPLE
+  - Achado: 0
+    Word: JUICE
+  - Achado: 0
+    Word: TOAST
   TraduzWords:
-  - Traduzword: CACHORRO
-  - Traduzword: BURRO
-  - Traduzword: CABRA
-  - Traduzword: VACA
+  - Traduzword: SANDUICHE
+  - Traduzword: SALADA
+  - Traduzword: ARROZ
+  - Traduzword: "MA\xC7A"
+  - Traduzword: SUCO
+  - Traduzword: TORRADA

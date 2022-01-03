@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Cor4
+  m_Name: Paises4
   m_EditorClassIdentifier: 
   timeSeconds: 120
   Columns: 10
@@ -18,135 +18,138 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
-    - C
-    - A
-    - O
-    - R
-    - A
-    - N
-    - G
-    - E
-    - H
-    - L
-  - Size: 10
-    Row:
-    - A
-    - G
-    - S
-    - W
-    - I
-    - M
-    - I
-    - M
     - P
-    - G
-  - Size: 10
-    Row:
-    - R
-    - J
-    - G
-    - C
-    - H
-    - B
-    - M
+    - O
+    - L
+    - A
+    - N
+    - D
     - I
-    - U
     - E
+    - Z
+    - I
   - Size: 10
     Row:
+    - L
+    - W
+    - B
+    - L
+    - W
+    - E
+    - C
+    - R
+    - D
+    - Y
+  - Size: 10
+    Row:
+    - N
+    - E
+    - A
+    - R
+    - R
+    - T
+    - E
+    - A
     - A
     - M
-    - X
-    - N
+  - Size: 10
+    Row:
+    - O
+    - F
+    - W
+    - P
+    - E
+    - P
+    - L
     - O
     - Y
+    - N
+  - Size: 10
+    Row:
+    - R
+    - Z
+    - M
     - U
+    - Z
+    - M
+    - A
+    - S
+    - X
+    - R
+  - Size: 10
+    Row:
+    - W
+    - W
+    - T
+    - B
+    - X
+    - Z
+    - N
+    - I
+    - C
+    - D
+  - Size: 10
+    Row:
+    - A
+    - D
+    - C
+    - R
+    - W
+    - A
+    - D
+    - B
+    - K
+    - S
+  - Size: 10
+    Row:
+    - Y
+    - L
+    - O
+    - Y
+    - G
+    - O
+    - E
+    - K
+    - V
+    - B
+  - Size: 10
+    Row:
+    - S
+    - A
+    - G
+    - L
+    - M
+    - A
+    - T
+    - E
+    - M
+    - T
+  - Size: 10
+    Row:
+    - J
+    - A
+    - P
+    - A
+    - N
+    - W
+    - N
+    - T
+    - Z
     - Q
-    - R
-    - N
-  - Size: 10
-    Row:
-    - M
-    - Z
-    - R
-    - L
-    - W
-    - V
-    - B
-    - V
-    - P
-    - L
-  - Size: 10
-    Row:
-    - E
-    - F
-    - L
-    - K
-    - K
-    - T
-    - P
-    - D
-    - L
-    - B
-  - Size: 10
-    Row:
-    - L
-    - Z
-    - N
-    - V
-    - F
-    - J
-    - V
-    - A
-    - E
-    - R
-  - Size: 10
-    Row:
-    - X
-    - M
-    - S
-    - T
-    - H
-    - X
-    - A
-    - P
-    - F
-    - V
-  - Size: 10
-    Row:
-    - K
-    - E
-    - H
-    - D
-    - Y
-    - X
-    - A
-    - W
-    - B
-    - O
-  - Size: 10
-    Row:
-    - Y
-    - E
-    - L
-    - L
-    - O
-    - W
-    - F
-    - C
-    - P
-    - H
   SearchWords:
   - Achado: 0
-    Word: ORANGE
+    Word: ICELAND
   - Achado: 0
-    Word: PURPLE
+    Word: IRAN
   - Achado: 0
-    Word: YELLOW
+    Word: JAPAN
   - Achado: 0
-    Word: CARAMEL
+    Word: POLAND
+  - Achado: 0
+    Word: NORWAY
   TraduzWords:
-  - Traduzword: LARANJA
-  - Traduzword: ROXO
-  - Traduzword: AMARELO
-  - Traduzword: CARAMELO
+  - Traduzword: "ISL\xC2NDIA"
+  - Traduzword: "IR\xC3"
+  - Traduzword: "JAP\xC3O"
+  - Traduzword: "POL\xD4NIA"
+  - Traduzword: NORUEGA

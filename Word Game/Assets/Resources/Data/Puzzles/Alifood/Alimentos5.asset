@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Animal3
+  m_Name: Alimentos5
   m_EditorClassIdentifier: 
   timeSeconds: 80
   Columns: 8
@@ -18,95 +18,95 @@ MonoBehaviour:
   Board:
   - Size: 8
     Row:
-    - R
-    - E
-    - R
-    - U
-    - G
-    - O
-    - A
-    - T
-  - Size: 8
-    Row:
-    - N
-    - S
-    - G
-    - H
-    - T
-    - D
-    - G
-    - D
-  - Size: 8
-    Row:
-    - D
-    - L
-    - Z
-    - U
-    - B
-    - O
-    - O
-    - K
-  - Size: 8
-    Row:
-    - O
     - P
-    - I
+    - C
+    - J
+    - H
+    - S
+    - S
+    - V
+    - C
+  - Size: 8
+    Row:
+    - G
+    - A
     - O
     - F
-    - G
-    - G
+    - W
     - T
+    - D
+    - O
+  - Size: 8
+    Row:
+    - I
+    - R
+    - S
+    - J
+    - B
+    - A
+    - Z
+    - R
+  - Size: 8
+    Row:
+    - S
+    - R
+    - K
+    - T
+    - E
+    - G
+    - G
+    - N
   - Size: 8
     Row:
     - N
+    - O
     - D
-    - P
-    - P
-    - Q
-    - J
-    - L
-    - K
+    - X
+    - A
+    - F
+    - C
+    - I
   - Size: 8
     Row:
-    - K
-    - L
-    - B
-    - A
     - I
     - T
-    - R
-    - S
-  - Size: 8
-    Row:
-    - E
-    - A
-    - A
-    - X
-    - R
-    - H
-    - U
-    - Z
-  - Size: 8
-    Row:
-    - Y
-    - V
-    - D
     - M
-    - A
-    - C
+    - R
+    - G
+    - V
+    - R
     - O
-    - W
+  - Size: 8
+    Row:
+    - O
+    - T
+    - O
+    - S
+    - G
+    - V
+    - N
+    - N
+  - Size: 8
+    Row:
+    - Z
+    - Z
+    - O
+    - R
+    - C
+    - C
+    - R
+    - O
   SearchWords:
   - Achado: 0
-    Word: DOG
+    Word: PASTA
   - Achado: 0
-    Word: DONKEY
+    Word: CARROT
   - Achado: 0
-    Word: GOAT
+    Word: CORN
   - Achado: 0
-    Word: COW
+    Word: EGG
   TraduzWords:
-  - Traduzword: CACHORRO
-  - Traduzword: BURRO
-  - Traduzword: CABRA
-  - Traduzword: VACA
+  - Traduzword: MACARRAO
+  - Traduzword: CENOURA
+  - Traduzword: MILHO
+  - Traduzword: OVO

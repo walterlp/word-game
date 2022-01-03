@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Animal3
+  m_Name: Esportes3
   m_EditorClassIdentifier: 
   timeSeconds: 80
   Columns: 8
@@ -18,95 +18,95 @@ MonoBehaviour:
   Board:
   - Size: 8
     Row:
-    - R
+    - T
     - E
-    - R
-    - U
-    - G
-    - O
-    - A
-    - T
-  - Size: 8
-    Row:
     - N
-    - S
-    - G
-    - H
-    - T
-    - D
-    - G
-    - D
-  - Size: 8
-    Row:
-    - D
-    - L
-    - Z
-    - U
-    - B
-    - O
-    - O
-    - K
-  - Size: 8
-    Row:
-    - O
-    - P
-    - I
-    - O
-    - F
-    - G
-    - G
-    - T
-  - Size: 8
-    Row:
     - N
-    - D
-    - P
-    - P
-    - Q
-    - J
-    - L
-    - K
-  - Size: 8
-    Row:
-    - K
-    - L
-    - B
-    - A
     - I
-    - T
-    - R
     - S
-  - Size: 8
-    Row:
-    - E
-    - A
-    - A
-    - X
-    - R
-    - H
-    - U
-    - Z
-  - Size: 8
-    Row:
-    - Y
-    - V
-    - D
-    - M
-    - A
     - C
-    - O
+    - K
+  - Size: 8
+    Row:
+    - S
+    - X
+    - M
+    - D
+    - U
     - W
+    - H
+    - A
+  - Size: 8
+    Row:
+    - U
+    - I
+    - L
+    - R
+    - P
+    - I
+    - I
+    - R
+  - Size: 8
+    Row:
+    - R
+    - M
+    - F
+    - Z
+    - A
+    - M
+    - J
+    - A
+  - Size: 8
+    Row:
+    - F
+    - S
+    - J
+    - W
+    - G
+    - M
+    - S
+    - T
+  - Size: 8
+    Row:
+    - I
+    - F
+    - U
+    - W
+    - F
+    - I
+    - Y
+    - E
+  - Size: 8
+    Row:
+    - N
+    - X
+    - K
+    - R
+    - I
+    - N
+    - R
+    - Z
+  - Size: 8
+    Row:
+    - G
+    - M
+    - O
+    - H
+    - E
+    - G
+    - Q
+    - P
   SearchWords:
   - Achado: 0
-    Word: DOG
+    Word: TENNIS
   - Achado: 0
-    Word: DONKEY
+    Word: SURFING
   - Achado: 0
-    Word: GOAT
+    Word: KARATE
   - Achado: 0
-    Word: COW
+    Word: SWIMMING
   TraduzWords:
-  - Traduzword: CACHORRO
-  - Traduzword: BURRO
-  - Traduzword: CABRA
-  - Traduzword: VACA
+  - Traduzword: "T\xCANIS"
+  - Traduzword: SURFE
+  - Traduzword: "CARAT\xCA"
+  - Traduzword: "NATA\xC7\xC3O"

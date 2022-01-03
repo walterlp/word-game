@@ -10,65 +10,68 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Alimentos1
+  m_Name: Moveis2
   m_EditorClassIdentifier: 
-  timeSeconds: 40
+  timeSeconds: 60
   Columns: 6
   Rows: 6
   Board:
   - Size: 6
     Row:
-    - B
-    - Y
-    - B
-    - H
-    - F
-    - E
-  - Size: 6
-    Row:
-    - U
-    - R
-    - C
-    - N
-    - B
     - T
-  - Size: 6
-    Row:
-    - T
-    - G
-    - E
-    - G
-    - M
-    - W
-  - Size: 6
-    Row:
-    - T
-    - P
-    - I
     - A
-    - G
-    - D
+    - B
+    - L
+    - E
+    - C
   - Size: 6
     Row:
-    - E
-    - Q
+    - J
+    - T
     - N
-    - Z
     - D
+    - H
     - L
   - Size: 6
     Row:
+    - K
+    - W
+    - Z
+    - A
+    - C
+    - O
+  - Size: 6
+    Row:
+    - O
+    - O
+    - I
+    - I
+    - L
+    - S
+  - Size: 6
+    Row:
+    - N
     - R
-    - T
-    - E
     - J
     - K
-    - R
+    - P
+    - E
+  - Size: 6
+    Row:
+    - B
+    - T
+    - P
+    - W
+    - J
+    - T
   SearchWords:
   - Achado: 0
-    Word: BREAD
+    Word: TABLE
   - Achado: 0
-    Word: BUTTER
+    Word: CHAIR
+  - Achado: 0
+    Word: CLOSET
   TraduzWords:
-  - Traduzword: PAO
-  - Traduzword: MANTEIGA
+  - Traduzword: MESA
+  - Traduzword: CADEIRA
+  - Traduzword: GUARDA-ROUPA

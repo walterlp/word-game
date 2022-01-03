@@ -10,143 +10,143 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Cor4
+  m_Name: Paises3
   m_EditorClassIdentifier: 
-  timeSeconds: 120
+  timeSeconds: 90
   Columns: 10
   Rows: 10
   Board:
   - Size: 10
     Row:
-    - C
-    - A
-    - O
-    - R
-    - A
-    - N
     - G
-    - E
-    - H
-    - L
-  - Size: 10
-    Row:
-    - A
-    - G
-    - S
-    - W
-    - I
-    - M
-    - I
-    - M
-    - P
-    - G
-  - Size: 10
-    Row:
-    - R
-    - J
-    - G
-    - C
-    - H
     - B
-    - M
-    - I
-    - U
-    - E
-  - Size: 10
-    Row:
-    - A
-    - M
-    - X
-    - N
-    - O
-    - Y
-    - U
     - Q
-    - R
-    - N
-  - Size: 10
-    Row:
-    - M
-    - Z
-    - R
-    - L
-    - W
-    - V
-    - B
-    - V
-    - P
-    - L
-  - Size: 10
-    Row:
-    - E
-    - F
-    - L
-    - K
-    - K
-    - T
-    - P
-    - D
-    - L
-    - B
-  - Size: 10
-    Row:
-    - L
-    - Z
-    - N
-    - V
-    - F
-    - J
-    - V
-    - A
-    - E
-    - R
-  - Size: 10
-    Row:
-    - X
-    - M
-    - S
-    - T
-    - H
-    - X
-    - A
-    - P
-    - F
-    - V
-  - Size: 10
-    Row:
-    - K
-    - E
-    - H
     - D
     - Y
-    - X
-    - A
-    - W
-    - B
-    - O
+    - Y
+    - R
+    - P
+    - L
+    - Y
   - Size: 10
     Row:
-    - Y
-    - E
-    - L
-    - L
     - O
-    - W
+    - E
+    - G
+    - Y
+    - P
+    - T
+    - X
     - F
+    - B
+    - V
+  - Size: 10
+    Row:
+    - E
     - C
-    - P
+    - R
+    - R
     - H
+    - R
+    - J
+    - K
+    - I
+    - E
+  - Size: 10
+    Row:
+    - C
+    - N
+    - X
+    - M
+    - Y
+    - I
+    - F
+    - B
+    - T
+    - V
+  - Size: 10
+    Row:
+    - U
+    - O
+    - R
+    - R
+    - A
+    - R
+    - C
+    - O
+    - A
+    - B
+  - Size: 10
+    Row:
+    - A
+    - R
+    - W
+    - V
+    - X
+    - N
+    - A
+    - P
+    - L
+    - Z
+  - Size: 10
+    Row:
+    - D
+    - T
+    - F
+    - T
+    - G
+    - D
+    - Y
+    - I
+    - Y
+    - C
+  - Size: 10
+    Row:
+    - O
+    - J
+    - M
+    - N
+    - P
+    - G
+    - H
+    - V
+    - V
+    - F
+  - Size: 10
+    Row:
+    - R
+    - X
+    - Y
+    - C
+    - Z
+    - P
+    - Q
+    - G
+    - B
+    - H
+  - Size: 10
+    Row:
+    - X
+    - L
+    - T
+    - M
+    - I
+    - R
+    - O
+    - S
+    - V
+    - R
   SearchWords:
   - Achado: 0
-    Word: ORANGE
+    Word: ECUADOR
   - Achado: 0
-    Word: PURPLE
+    Word: EGYPT
   - Achado: 0
-    Word: YELLOW
+    Word: GERMANY
   - Achado: 0
-    Word: CARAMEL
+    Word: ITALY
   TraduzWords:
-  - Traduzword: LARANJA
-  - Traduzword: ROXO
-  - Traduzword: AMARELO
-  - Traduzword: CARAMELO
+  - Traduzword: EQUADOR
+  - Traduzword: EGITO
+  - Traduzword: ALEMANHA
+  - Traduzword: "IT\xC1LIA"

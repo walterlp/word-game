@@ -12,139 +12,144 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
   m_Name: Animal4
   m_EditorClassIdentifier: 
-  timeSeconds: 160
+  timeSeconds: 120
   Columns: 10
   Rows: 10
   Board:
   - Size: 10
     Row:
-    - G
-    - I
+    - F
     - R
-    - A
-    - F
-    - F
-    - E
-    - G
-    - T
-    - L
-  - Size: 10
-    Row:
-    - A
-    - E
-    - T
-    - X
-    - A
-    - R
-    - Z
-    - W
-    - N
-    - L
-  - Size: 10
-    Row:
-    - Z
-    - Z
-    - F
-    - D
-    - S
-    - E
     - O
+    - G
     - H
-    - Z
-    - D
+    - O
+    - T
+    - A
+    - N
+    - R
   - Size: 10
     Row:
-    - E
-    - L
-    - G
-    - O
     - A
-    - T
-    - P
-    - N
-    - W
+    - Y
+    - H
+    - D
     - K
-  - Size: 10
-    Row:
-    - V
-    - G
-    - V
-    - L
-    - X
-    - A
-    - H
-    - S
-    - I
-    - F
-  - Size: 10
-    Row:
-    - Y
-    - O
-    - O
-    - P
-    - Y
-    - E
-    - Y
-    - Z
-    - U
-    - F
-  - Size: 10
-    Row:
     - O
     - D
-    - S
-    - H
-    - N
-    - T
-    - U
-    - O
-    - H
-    - Y
+    - L
+    - Q
+    - B
   - Size: 10
     Row:
-    - N
-    - F
+    - D
+    - D
+    - R
     - P
+    - L
+    - K
+    - S
+    - L
+    - E
+    - U
+  - Size: 10
+    Row:
+    - O
+    - P
+    - S
+    - G
+    - Q
+    - P
+    - O
     - I
-    - J
+    - Y
+    - T
+  - Size: 10
+    Row:
+    - L
     - N
-    - Z
-    - X
+    - U
+    - W
+    - R
+    - O
+    - O
+    - G
     - M
-    - K
+    - T
   - Size: 10
     Row:
-    - E
-    - J
-    - U
-    - N
-    - W
-    - A
     - P
     - Z
-    - G
+    - W
+    - F
+    - M
+    - M
+    - B
+    - A
+    - A
+    - E
+  - Size: 10
+    Row:
+    - H
+    - A
+    - N
+    - N
     - S
+    - G
+    - V
+    - T
+    - E
+    - R
+  - Size: 10
+    Row:
+    - I
+    - S
+    - O
+    - F
+    - K
+    - Z
+    - R
+    - O
+    - E
+    - F
   - Size: 10
     Row:
     - N
-    - N
-    - U
-    - A
-    - H
-    - R
-    - A
-    - G
+    - O
+    - J
     - D
     - X
+    - V
+    - O
+    - R
+    - Y
+    - L
+  - Size: 10
+    Row:
+    - H
+    - L
+    - F
+    - I
+    - S
+    - H
+    - Y
+    - R
+    - F
+    - Y
   SearchWords:
-  - Word: FISH
-  - Word: FOX
-  - Word: DOLPHIN
-  - Word: ANTEATER
-  - Word: GIRAFFE
+  - Achado: 0
+    Word: BUTTERFLY
+  - Achado: 0
+    Word: FROG
+  - Achado: 0
+    Word: DOLPHIN
+  - Achado: 0
+    Word: ALLIGATOR
+  - Achado: 0
+    Word: FISH
   TraduzWords:
-  - Traduzword: PEIXE
-  - Traduzword: RAPOSA
+  - Traduzword: BORBOLETA
+  - Traduzword: SAPO
   - Traduzword: GOLFINHO
-  - Traduzword: TAMANDUA
-  - Traduzword: GIRAFA
+  - Traduzword: "JACAR\xC9"
+  - Traduzword: PEIXE

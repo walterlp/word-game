@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Animal3
+  m_Name: Alimentos3
   m_EditorClassIdentifier: 
   timeSeconds: 80
   Columns: 8
@@ -18,95 +18,95 @@ MonoBehaviour:
   Board:
   - Size: 8
     Row:
-    - R
-    - E
-    - R
-    - U
-    - G
-    - O
-    - A
-    - T
-  - Size: 8
-    Row:
-    - N
-    - S
-    - G
-    - H
-    - T
-    - D
-    - G
-    - D
-  - Size: 8
-    Row:
-    - D
-    - L
-    - Z
-    - U
-    - B
-    - O
-    - O
-    - K
-  - Size: 8
-    Row:
-    - O
-    - P
-    - I
-    - O
     - F
-    - G
-    - G
-    - T
-  - Size: 8
-    Row:
-    - N
-    - D
-    - P
-    - P
-    - Q
-    - J
-    - L
-    - K
-  - Size: 8
-    Row:
-    - K
-    - L
-    - B
-    - A
-    - I
-    - T
-    - R
-    - S
-  - Size: 8
-    Row:
-    - E
-    - A
-    - A
-    - X
-    - R
-    - H
-    - U
-    - Z
-  - Size: 8
-    Row:
     - Y
-    - V
     - D
-    - M
+    - N
     - A
     - C
-    - O
+    - A
+    - I
+  - Size: 8
+    Row:
+    - M
+    - Y
+    - S
+    - T
+    - I
+    - H
+    - K
     - W
+  - Size: 8
+    Row:
+    - B
+    - F
+    - F
+    - D
+    - A
+    - I
+    - U
+    - U
+  - Size: 8
+    Row:
+    - W
+    - M
+    - P
+    - W
+    - K
+    - C
+    - B
+    - A
+  - Size: 8
+    Row:
+    - S
+    - Q
+    - I
+    - R
+    - N
+    - K
+    - A
+    - O
+  - Size: 8
+    Row:
+    - C
+    - H
+    - E
+    - E
+    - S
+    - E
+    - R
+    - F
+  - Size: 8
+    Row:
+    - A
+    - Y
+    - P
+    - K
+    - W
+    - N
+    - D
+    - M
+  - Size: 8
+    Row:
+    - X
+    - V
+    - C
+    - H
+    - V
+    - F
+    - N
+    - J
   SearchWords:
   - Achado: 0
-    Word: DOG
+    Word: CANDY
   - Achado: 0
-    Word: DONKEY
+    Word: PIE
   - Achado: 0
-    Word: GOAT
+    Word: CHEESE
   - Achado: 0
-    Word: COW
+    Word: CHICKEN
   TraduzWords:
-  - Traduzword: CACHORRO
-  - Traduzword: BURRO
-  - Traduzword: CABRA
-  - Traduzword: VACA
+  - Traduzword: BALA
+  - Traduzword: TORTA
+  - Traduzword: QUEIJO
+  - Traduzword: FRANGO

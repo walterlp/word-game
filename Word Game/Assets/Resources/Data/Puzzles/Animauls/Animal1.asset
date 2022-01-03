@@ -12,139 +12,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
   m_Name: Animal1
   m_EditorClassIdentifier: 
-  timeSeconds: 160
-  Columns: 10
-  Rows: 10
+  timeSeconds: 40
+  Columns: 4
+  Rows: 4
   Board:
-  - Size: 10
+  - Size: 4
     Row:
-    - G
-    - X
-    - D
-    - Y
-    - Y
-    - I
-    - H
-    - K
-    - R
-    - E
-  - Size: 10
-    Row:
-    - O
-    - O
-    - X
-    - C
-    - N
-    - P
-    - O
-    - O
-    - L
-    - G
-  - Size: 10
-    Row:
-    - D
-    - O
-    - F
-    - Z
-    - C
-    - L
+    - B
     - T
-    - E
-    - U
-    - M
-  - Size: 10
-    Row:
-    - T
-    - C
-    - Z
-    - M
-    - W
-    - A
-    - P
-    - K
-    - C
-    - P
-  - Size: 10
-    Row:
-    - N
-    - T
-    - Z
-    - O
-    - G
-    - H
-    - F
-    - M
-    - W
-    - W
-  - Size: 10
-    Row:
-    - O
-    - R
-    - F
-    - I
-    - A
-    - Y
-    - Q
-    - E
-    - Y
-    - U
-  - Size: 10
-    Row:
-    - F
-    - W
-    - L
-    - N
-    - F
-    - P
-    - F
-    - U
-    - K
-    - Y
-  - Size: 10
-    Row:
-    - F
-    - L
-    - T
-    - V
-    - U
-    - P
-    - O
-    - T
-    - L
-    - Y
-  - Size: 10
-    Row:
-    - A
-    - L
-    - H
-    - D
-    - V
     - J
-    - I
-    - C
-    - A
-    - A
-  - Size: 10
+    - Q
+  - Size: 4
     Row:
-    - M
-    - S
-    - Y
-    - N
+    - A
     - E
-    - K
+    - D
     - C
-    - I
-    - H
+  - Size: 4
+    Row:
+    - T
+    - A
     - C
+    - T
+  - Size: 4
+    Row:
+    - D
+    - D
+    - M
+    - O
   SearchWords:
-  - Word: CHICKEN
-  - Word: CAT
-  - Word: ALLIGATOR
-  - Word: ELEPHANT
-  - Word: DOG
+  - Achado: 0
+    Word: BAT
+  - Achado: 0
+    Word: CAT
   TraduzWords:
-  - Traduzword: FRANGO
+  - Traduzword: MORCEGO
   - Traduzword: GATO
-  - Traduzword: JACARE
-  - Traduzword: ELEFANTE
-  - Traduzword: CACHORRO

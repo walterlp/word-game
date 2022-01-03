@@ -10,65 +10,71 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Alimentos1
+  m_Name: Alimentos2
   m_EditorClassIdentifier: 
-  timeSeconds: 40
+  timeSeconds: 60
   Columns: 6
   Rows: 6
   Board:
   - Size: 6
     Row:
-    - B
-    - Y
-    - B
-    - H
-    - F
-    - E
-  - Size: 6
-    Row:
-    - U
-    - R
-    - C
-    - N
-    - B
-    - T
-  - Size: 6
-    Row:
-    - T
-    - G
-    - E
-    - G
     - M
-    - W
-  - Size: 6
-    Row:
-    - T
-    - P
     - I
-    - A
-    - G
-    - D
-  - Size: 6
-    Row:
-    - E
-    - Q
-    - N
-    - Z
-    - D
     - L
+    - K
+    - U
+    - D
   - Size: 6
     Row:
-    - R
-    - T
+    - S
+    - Z
+    - C
+    - G
+    - G
     - E
-    - J
+  - Size: 6
+    Row:
+    - Z
+    - X
+    - C
+    - T
+    - S
+    - F
+  - Size: 6
+    Row:
+    - X
+    - M
+    - A
+    - B
+    - B
+    - F
+  - Size: 6
+    Row:
+    - Z
+    - S
     - K
-    - R
+    - W
+    - O
+    - O
+  - Size: 6
+    Row:
+    - F
+    - N
+    - E
+    - P
+    - X
+    - C
   SearchWords:
   - Achado: 0
-    Word: BREAD
+    Word: COFFE
   - Achado: 0
-    Word: BUTTER
+    Word: EGG
+  - Achado: 0
+    Word: MILK
+  - Achado: 0
+    Word: CAKE
   TraduzWords:
-  - Traduzword: PAO
-  - Traduzword: MANTEIGA
+  - Traduzword: CAFE
+  - Traduzword: OVO
+  - Traduzword: LEITE
+  - Traduzword: BOLO

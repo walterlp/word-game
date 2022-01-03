@@ -36,11 +36,13 @@ public class SoundManager : MonoBehaviour
 
         if (_muteBackgMusic)
         {
-            _audioSource.Stop();
+            //_audioSource.Stop();
+            _audioSource.volume = 0f;
         }
         else
         {
-            _audioSource.Play();
+            // _audioSource.Play();
+            _audioSource.volume = 1f;
         }
     }
 

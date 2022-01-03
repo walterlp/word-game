@@ -12,139 +12,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
   m_Name: Animal2
   m_EditorClassIdentifier: 
-  timeSeconds: 160
-  Columns: 10
-  Rows: 10
+  timeSeconds: 60
+  Columns: 6
+  Rows: 6
   Board:
-  - Size: 10
+  - Size: 6
     Row:
-    - Y
     - B
-    - G
-    - Y
     - F
-    - N
-    - E
-    - S
-    - C
-    - T
-  - Size: 10
-    Row:
-    - I
-    - N
-    - G
-    - L
-    - N
-    - V
-    - J
-    - M
-    - A
-    - L
-  - Size: 10
-    Row:
-    - C
-    - C
-    - M
-    - F
-    - U
-    - S
-    - J
-    - B
-    - M
-    - M
-  - Size: 10
-    Row:
-    - S
-    - S
-    - Y
     - R
-    - A
-    - P
-    - P
+    - X
     - D
+    - C
+  - Size: 6
+    Row:
     - E
     - V
-  - Size: 10
-    Row:
-    - Q
-    - J
-    - T
-    - E
-    - O
-    - K
     - S
-    - Q
-    - L
-    - C
-  - Size: 10
-    Row:
-    - S
-    - X
-    - E
-    - T
-    - K
-    - B
-    - Y
+    - A
     - M
-    - O
-    - X
-  - Size: 10
+    - A
+  - Size: 6
     Row:
-    - S
+    - A
+    - G
+    - Q
+    - A
+    - U
+    - M
+  - Size: 6
+    Row:
     - R
-    - C
+    - S
+    - B
     - T
-    - F
     - N
-    - S
-    - W
-    - A
-    - T
-  - Size: 10
-    Row:
-    - M
-    - W
-    - D
-    - U
-    - K
-    - S
-    - O
-    - H
-    - U
-    - A
-  - Size: 10
-    Row:
-    - W
-    - K
-    - O
-    - B
-    - D
-    - Q
     - E
-    - D
-    - F
-    - R
-  - Size: 10
+  - Size: 6
     Row:
+    - J
+    - P
+    - W
+    - B
+    - O
     - L
-    - L
-    - L
-    - L
-    - L
+  - Size: 6
+    Row:
+    - Y
+    - F
+    - O
+    - X
     - R
-    - S
-    - R
-    - Q
-    - M
+    - E
   SearchWords:
-  - Word: DONKEY
-  - Word: COW
-  - Word: CAMEL
-  - Word: BUTTERFLY
-  - Word: BAT
+  - Achado: 0
+    Word: BEAR
+  - Achado: 0
+    Word: CAMEL
+  - Achado: 0
+    Word: FOX
   TraduzWords:
-  - Traduzword: BURRO
-  - Traduzword: VACA
+  - Traduzword: URSO
   - Traduzword: CAMELO
-  - Traduzword: BORBOLETA
-  - Traduzword: MORCEGO
+  - Traduzword: RAPOSA

@@ -44,10 +44,11 @@ public class BoardData: ScriptableObject
             }
         }
     }
-
+    
     public float timeSeconds;
     public int Columns = 0;
     public int Rows = 0;
+    
     
     public BoardRow[] Board;
     public List<SearchingWord> SearchWords = new List<SearchingWord>();

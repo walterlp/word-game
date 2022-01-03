@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
   m_Name: Paises1
   m_EditorClassIdentifier: 
-  timeSeconds: 120
+  timeSeconds: 50
   Columns: 6
   Rows: 6
   Board:
@@ -27,7 +27,7 @@ MonoBehaviour:
   - Size: 6
     Row:
     - R
-    - K
+    - E
     - P
     - I
     - M
@@ -36,7 +36,7 @@ MonoBehaviour:
     Row:
     - A
     - X
-    - O
+    - L
     - V
     - A
     - R
@@ -45,7 +45,7 @@ MonoBehaviour:
     - Z
     - E
     - U
-    - L
+    - I
     - O
     - Z
   - Size: 6
@@ -54,7 +54,7 @@ MonoBehaviour:
     - C
     - D
     - G
-    - U
+    - H
     - S
   - Size: 6
     Row:
@@ -65,6 +65,10 @@ MonoBehaviour:
     - J
     - C
   SearchWords:
-  - Word: BRAZIL
+  - Achado: 0
+    Word: BRAZIL
+  - Achado: 0
+    Word: CHILE
   TraduzWords:
   - Traduzword: BRASIL
+  - Traduzword: CHILE

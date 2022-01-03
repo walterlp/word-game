@@ -10,143 +10,143 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8debe6eccb68e36489f4bd418c063222, type: 3}
-  m_Name: Cor4
+  m_Name: Esportes4
   m_EditorClassIdentifier: 
-  timeSeconds: 120
+  timeSeconds: 90
   Columns: 10
   Rows: 10
   Board:
   - Size: 10
     Row:
-    - C
+    - F
+    - B
     - A
-    - O
-    - R
-    - A
-    - N
-    - G
-    - E
-    - H
-    - L
-  - Size: 10
-    Row:
-    - A
-    - G
     - S
-    - W
-    - I
-    - M
-    - I
-    - M
+    - T
     - P
-    - G
-  - Size: 10
-    Row:
-    - R
-    - J
-    - G
-    - C
-    - H
     - B
     - M
-    - I
+    - B
+    - C
+  - Size: 10
+    Row:
+    - O
+    - S
+    - P
+    - E
+    - K
     - U
+    - N
+    - A
+    - A
+    - A
+  - Size: 10
+    Row:
+    - O
+    - V
+    - J
+    - R
+    - J
+    - F
+    - S
+    - K
+    - S
+    - N
+  - Size: 10
+    Row:
+    - T
+    - N
+    - C
+    - H
+    - Y
+    - H
+    - R
+    - E
+    - K
+    - O
+  - Size: 10
+    Row:
+    - B
+    - T
+    - B
+    - P
+    - A
+    - B
+    - D
+    - G
+    - E
     - E
   - Size: 10
     Row:
     - A
-    - M
-    - X
-    - N
-    - O
-    - Y
     - U
+    - R
+    - C
+    - H
+    - U
+    - W
+    - D
+    - T
+    - I
+  - Size: 10
+    Row:
+    - L
+    - H
+    - A
+    - A
+    - F
+    - F
+    - C
+    - R
+    - B
+    - N
+  - Size: 10
+    Row:
+    - L
+    - H
     - Q
-    - R
+    - L
     - N
-  - Size: 10
-    Row:
-    - M
-    - Z
-    - R
-    - L
-    - W
-    - V
-    - B
-    - V
-    - P
-    - L
-  - Size: 10
-    Row:
-    - E
-    - F
-    - L
-    - K
-    - K
-    - T
-    - P
-    - D
-    - L
-    - B
-  - Size: 10
-    Row:
-    - L
-    - Z
-    - N
-    - V
-    - F
-    - J
-    - V
+    - C
+    - C
+    - Q
     - A
-    - E
-    - R
+    - G
   - Size: 10
     Row:
-    - X
-    - M
+    - G
+    - I
+    - F
+    - P
+    - E
     - S
     - T
-    - H
     - X
-    - A
-    - P
-    - F
-    - V
-  - Size: 10
-    Row:
+    - L
     - K
-    - E
-    - H
-    - D
-    - Y
-    - X
-    - A
-    - W
-    - B
-    - O
   - Size: 10
     Row:
-    - Y
-    - E
-    - L
-    - L
+    - V
     - O
-    - W
-    - F
-    - C
-    - P
-    - H
+    - L
+    - L
+    - E
+    - Y
+    - B
+    - A
+    - L
+    - L
   SearchWords:
   - Achado: 0
-    Word: ORANGE
+    Word: FOOTBALL
   - Achado: 0
-    Word: PURPLE
+    Word: BASKETBALL
   - Achado: 0
-    Word: YELLOW
+    Word: VOLEYBALL
   - Achado: 0
-    Word: CARAMEL
+    Word: CANOEING
   TraduzWords:
-  - Traduzword: LARANJA
-  - Traduzword: ROXO
-  - Traduzword: AMARELO
-  - Traduzword: CARAMELO
+  - Traduzword: FUTEBOL AMERICANO
+  - Traduzword: BASQUETE
+  - Traduzword: VOLEI
+  - Traduzword: CANOAGEM
