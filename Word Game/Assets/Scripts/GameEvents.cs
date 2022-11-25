@@ -79,6 +79,15 @@ public static class GameEvents
     }
     //------------------------------------------------------------------------
 
+    public delegate void FimJogo();
+    public static event FimJogo OnFimJogo;
+    public static void FimJogoMethod()
+    {
+        if (OnFimJogo != null)
+            OnFimJogo();
+    }
+    //------------------------------------------------------------------------
+
     public delegate void UnlockNextCategory();
     public static event UnlockNextCategory OnUnlockNextCategory;
     public static void UnlockNextCategoryMethod()

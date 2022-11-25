@@ -200,7 +200,7 @@ public class WordChecker : MonoBehaviour
             var nextBoardIndex = -1;
             var currentCategoryIndex = 0;
             bool readNlName = false;
-
+            
             for (int ajudanteIndex=0; ajudanteIndex < gameLevelData.data.Count; ajudanteIndex++)
             {
                 if (readNlName)
@@ -215,29 +215,27 @@ public class WordChecker : MonoBehaviour
                 }
             }
 
+
             var currentLevelSize = gameLevelData.data[currentCategoryIndex].boardData.Count;
             if (currentBoardIndex < currentLevelSize)
                 currentBoardIndex += 1;
             DataSaver.SaveCategory(categoryName, currentBoardIndex);
             //desbloquear proxima categoria
-            if(currentBoardIndex >= currentLevelSize)
-            {
+            if(currentBoardIndex >= currentLevelSize){
                 currentCategoryIndex++;
-                if(currentCategoryIndex < gameLevelData.data.Count)//se não for a ultima categoria
-                {
+                if(currentCategoryIndex < gameLevelData.data.Count){    //se não for a ultima categoria
                     categoryName = gameLevelData.data[currentCategoryIndex].categoryName;
                     currentBoardIndex = 0;
                     loadCategoria = true;
 
-                    if (nextBoardIndex <= 0)
-                    {
+                    if (nextBoardIndex <= 0){
                         DataSaver.SaveCategory(categoryName, currentBoardIndex);
                     }
 
                 }
-                else
-                {
-                    SceneManager.LoadScene("SelectCategory");
+                else{
+                    GameEvents.FimJogoMethod();
+                    //SceneManager.LoadScene("MenuSelecao"); //carregar tela de zeramento
                 }
             }
             else
@@ -248,4 +246,5 @@ public class WordChecker : MonoBehaviour
                 GameEvents.UnlockNextCategoryMethod();
         }
     }
+   
 }

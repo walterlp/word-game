@@ -1,4 +1,4 @@
-using System.Collections;
+/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TextSpeech;
@@ -38,4 +38,4 @@ public class VoiceController : MonoBehaviour
     {
         TextToSpeech.instance.StopSpeak();
     }
-}
+}*/

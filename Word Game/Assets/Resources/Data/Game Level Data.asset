@@ -13,47 +13,21 @@ MonoBehaviour:
   m_Name: Game Level Data
   m_EditorClassIdentifier: 
   data:
-  - pontuacao: 0
-    categoryName: Cor
+  - categoryName: Cor
     boardData:
     - {fileID: 11400000, guid: b40e82587d87c2344be49b5d8c1d3303, type: 2}
-    - {fileID: 11400000, guid: 108832e857959e149bb682e4803657ec, type: 2}
-    - {fileID: 11400000, guid: 81c08295fdedf814dba205b098dd69f2, type: 2}
-    - {fileID: 11400000, guid: a8153c85335a08d4fbccc4010d7addac, type: 2}
-    - {fileID: 11400000, guid: ba8dbbc5a78ee44429067f3dea16f036, type: 2}
-  - pontuacao: 0
-    categoryName: Alifood
+  - categoryName: Alifood
     boardData:
     - {fileID: 11400000, guid: e0b4e347a3e11c04781344b40fbf626f, type: 2}
-    - {fileID: 11400000, guid: ff9163e62ccb50447bd4c717b9787712, type: 2}
-    - {fileID: 11400000, guid: cc3841c1a89d0c74c88dd4e988085779, type: 2}
-    - {fileID: 11400000, guid: ef22c06e9e8bf7d46b6ca1750ea43140, type: 2}
-    - {fileID: 11400000, guid: ff650fa17dc385d4ea877f185c733a48, type: 2}
-  - pontuacao: 0
-    categoryName: EsportEs
+  - categoryName: EsportEs
     boardData:
     - {fileID: 11400000, guid: a553ee6c017e2c74eaf65e15895847f1, type: 2}
-    - {fileID: 11400000, guid: eca187efecbadfc468032ba96f3ad809, type: 2}
-    - {fileID: 11400000, guid: 4f5bfb0e0c157b74fb1112a940bfaadb, type: 2}
-    - {fileID: 11400000, guid: 3e65ba283e7874f45897b23d2d7ea630, type: 2}
-  - pontuacao: 0
-    categoryName: Animauls
+  - categoryName: Animauls
     boardData:
     - {fileID: 11400000, guid: 34890101802857943b431c66d1f360c1, type: 2}
-    - {fileID: 11400000, guid: 3318826e05cfc3f4b99a23831792caaf, type: 2}
-    - {fileID: 11400000, guid: 23b9385b1eb4b2c4ca8626373b297a2d, type: 2}
-    - {fileID: 11400000, guid: 4fad8c3a78906cd45b116c7cae9ccd74, type: 2}
-  - pontuacao: 0
-    categoryName: Moveis
+  - categoryName: Moveis
     boardData:
     - {fileID: 11400000, guid: fff34c5a73547c84685a44062347e6f1, type: 2}
-    - {fileID: 11400000, guid: cc785c14a2ae5bb43b73c932e7354b88, type: 2}
-    - {fileID: 11400000, guid: c86edd473be642245b37470faa15deaf, type: 2}
-    - {fileID: 11400000, guid: 4301ab482bd0d0a42a86c6b4691b349c, type: 2}
-  - pontuacao: 0
-    categoryName: Paises
+  - categoryName: Paises
     boardData:
     - {fileID: 11400000, guid: f0f3cf666ee39164b90ff21ab0253dc0, type: 2}
-    - {fileID: 11400000, guid: 5cb38d7662d96704589085ec878c062b, type: 2}
-    - {fileID: 11400000, guid: bc18e71046d3aff4a834e94362cdf714, type: 2}
-    - {fileID: 11400000, guid: bb17bc9849413df4598d7f27690cda4f, type: 2}

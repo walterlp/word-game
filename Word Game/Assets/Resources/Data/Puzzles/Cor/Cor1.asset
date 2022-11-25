@@ -32,9 +32,9 @@ MonoBehaviour:
     - I
   - Size: 5
     Row:
-    - E
+    - A
     - O
-    - W
+    - A
     - C
     - N
   - Size: 5
@@ -53,9 +53,6 @@ MonoBehaviour:
     - A
   SearchWords:
   - Achado: 0
-    Word: PRETO
-  - Achado: 0
-    Word: CINZA
+    Word: OLA
   TraduzWords:
-  - Traduzword: BLACK
-  - Traduzword: GREY
+  - Traduzword: HELLO

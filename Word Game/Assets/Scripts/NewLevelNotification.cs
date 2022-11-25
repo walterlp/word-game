@@ -28,8 +28,7 @@ public class NewLevelNotification : MonoBehaviour
         GameEvents.OnUnlockNextCategory += OnUnlockNextCategory;
     }
 
-    private void OnDisable()
-    {
+    private void OnDisable(){
         GameEvents.OnUnlockNextCategory -= OnUnlockNextCategory;
     }
 
@@ -41,7 +40,7 @@ public class NewLevelNotification : MonoBehaviour
         {
             if (puxaProx)
             {
-                categoryNameImage.sprite = passandoNome.sprite;
+                //categoryNameImage.sprite = passandoNome.sprite;
                 puxaProx = false;
             }
             if(passandoNome.name == currentGameData.selectedCategoryName)
