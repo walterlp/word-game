@@ -22,37 +22,40 @@ MonoBehaviour:
     - U
     - O
     - O
-    - C
+    - B
   - Size: 5
     Row:
-    - R
+    - U
     - M
     - L
     - Z
-    - I
+    - L
   - Size: 5
     Row:
-    - A
+    - R
     - O
     - A
     - C
-    - N
+    - U
   - Size: 5
     Row:
-    - T
+    - E
     - R
     - I
     - J
-    - Z
+    - E
   - Size: 5
     Row:
-    - O
+    - D
     - W
     - J
     - J
     - A
   SearchWords:
-  - Achado: 0
-    Word: OLA
+  - Achado: 1
+    Word: RED
+  - Achado: 1
+    Word: BLUE
   TraduzWords:
-  - Traduzword: HELLO
+  - Traduzword: VERMELHO
+  - Traduzword: AZUL

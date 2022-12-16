@@ -410,7 +410,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 405.04007, y: -51.859985}
+  m_AnchoredPosition: {x: 419.83, y: -227.24}
   m_SizeDelta: {x: 99.26, y: 103.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1386736148
@@ -555,8 +555,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19, y: 227}
-  m_SizeDelta: {x: 947.34, y: 1018.41}
+  m_AnchoredPosition: {x: -11.605, y: 228.55}
+  m_SizeDelta: {x: 962.13, y: 1015.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1414070849
 MonoBehaviour:
@@ -593,7 +593,8 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Audios:\nZeramento -  Alexander \nEfeito de sele\xE7\xE3o - Alexander\nVit\xF3ria
     - Alexander\nMusica de fundo - Alexander\nDerrota - Alexander\nCategoria completa
-    - Alexander\n\nTodos os audios est\xE3o dispon\xEDveis em: orangefreesounds.com"
+    - Alexander\n\nTodos os audios est\xE3o dispon\xEDveis em: orangefreesounds.com\nLicen\xE7a
+    Creative commons (CC BY-NC 4.0)"
 --- !u!222 &1414070850
 CanvasRenderer:
   m_ObjectHideFlags: 0
