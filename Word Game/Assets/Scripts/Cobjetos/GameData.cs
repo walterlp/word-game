@@ -8,4 +8,9 @@ public class GameData : ScriptableObject
 {
     public string selectedCategoryName;
     public BoardData selectedBoardData;
+    public int score;
+
 }
+
+
+

@@ -5,8 +5,8 @@ using UnityEngine;
 public class DataSaver : MonoBehaviour
 {
 
-    public static int ReadCategoryCurrentIndexValues(string name)
-    {
+    public static int ReadCategoryCurrentIndexValues(string name){
+        
         var value = -1;
         if (PlayerPrefs.HasKey(name))
             value = PlayerPrefs.GetInt(name);
@@ -16,6 +16,7 @@ public class DataSaver : MonoBehaviour
 
     public static void SaveCategory(string categoryName, int currentIndex)
     {
+        
         PlayerPrefs.SetInt(categoryName,currentIndex);
         PlayerPrefs.Save();
         
@@ -26,9 +27,11 @@ public class DataSaver : MonoBehaviour
         foreach(var data in levelData.data)
         {
             PlayerPrefs.SetInt(data.categoryName, -1);
+            
         }
         //desbloqueando o primeiro desafio para o jogador
         PlayerPrefs.SetInt(levelData.data[0].categoryName, 0);
+        
         PlayerPrefs.Save();
     }
 

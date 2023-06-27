@@ -8,7 +8,8 @@ public class WordChecker : MonoBehaviour
 
     public GameData currentGameData;
     public GameLevelData gameLevelData;
-    
+
+    private ScoreManager scoreManager;
 
     private string _word;
     private int _assignedPoints = 0;
@@ -42,7 +43,12 @@ public class WordChecker : MonoBehaviour
 
     void Start()
     {
+        
+        scoreManager = FindObjectOfType<ScoreManager>();
+        scoreManager.UpdateScoreText();
         currentGameData.selectedBoardData.ClearData();
+
+
 
         _assignedPoints = 0;
         _completedWords = 0;
@@ -194,6 +200,9 @@ public class WordChecker : MonoBehaviour
         bool loadCategoria = false;
         if(currentGameData.selectedBoardData.SearchWords.Count == _completedWords)
         {
+            //dando pontuação para o jogador de acordo com o tempo da fase exemplo: fase 1 tem 30 segundos para ser completada caso consiga o jogador recebe 30 pontos
+            scoreManager.UpScore(currentGameData.selectedBoardData.timeSeconds);
+           
             //salvar o progresso do jogo
             var categoryName = currentGameData.selectedCategoryName;
             var currentBoardIndex = DataSaver.ReadCategoryCurrentIndexValues(categoryName);

@@ -45,7 +45,7 @@ public class BoardData: ScriptableObject
         }
     }
     
-    public float timeSeconds;
+    public int timeSeconds;
     public int Columns = 0;
     public int Rows = 0;
     

@@ -10,7 +10,7 @@ public class SelectPuzzleButton : MonoBehaviour
     public GameLevelData levelData;
     public Text categoryText;
     public Image progressBarFilling;
-
+    private ScoreManager scoreManager;
 
     private string gameSceneName = "GameCena";
 
@@ -18,6 +18,8 @@ public class SelectPuzzleButton : MonoBehaviour
 
     void Start()
     {
+        scoreManager = FindObjectOfType<ScoreManager>();
+        scoreManager.UpdateScoreText();
         _levelLocked = false;
         var button = GetComponent<Button>();
         GetComponent<Button>().onClick.AddListener(OnButtonClick);

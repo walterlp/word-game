@@ -23,7 +23,7 @@ public class BoardDataDr : Editor
     {
         serializedObject.Update();
 
-        GameDataInstance.timeSeconds = EditorGUILayout.FloatField("Tempo Máximo em segundos:", GameDataInstance.timeSeconds);
+        GameDataInstance.timeSeconds = EditorGUILayout.IntField("Tempo Máximo em segundos:", GameDataInstance.timeSeconds);
 
         DrawColumnsRowsInputFields();
         EditorGUILayout.Space();

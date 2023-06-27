@@ -52,9 +52,9 @@ MonoBehaviour:
     - J
     - A
   SearchWords:
-  - Achado: 1
+  - Achado: 0
     Word: RED
-  - Achado: 1
+  - Achado: 0
     Word: BLUE
   TraduzWords:
   - Traduzword: VERMELHO
