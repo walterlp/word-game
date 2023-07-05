@@ -61,6 +61,7 @@ public class TimerClock : MonoBehaviour
                 _segundos = Mathf.RoundToInt(_temporestante % 60);
 
                 timerText.text = _minutos.ToString("00") + ":" + _segundos.ToString("00");
+                currentGameData.valFase = Mathf.FloorToInt(_temporestante);
             }
             else
             {

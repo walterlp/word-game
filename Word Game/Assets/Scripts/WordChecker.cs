@@ -201,7 +201,7 @@ public class WordChecker : MonoBehaviour
         if(currentGameData.selectedBoardData.SearchWords.Count == _completedWords)
         {
             //dando pontuação para o jogador de acordo com o tempo da fase exemplo: fase 1 tem 30 segundos para ser completada caso consiga o jogador recebe 30 pontos
-            scoreManager.UpScore(currentGameData.selectedBoardData.timeSeconds);
+            scoreManager.UpScore(currentGameData.valFase);
            
             //salvar o progresso do jogo
             var categoryName = currentGameData.selectedCategoryName;
