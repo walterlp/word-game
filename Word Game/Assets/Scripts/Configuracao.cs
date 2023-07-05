@@ -18,6 +18,7 @@ public class Configuracao : MonoBehaviour
     {
         DataSaver.ClearGameData(levelData);
         currentGameData.score = 0;
+        currentGameData.valFase = 0;
         confirmando.gameObject.SetActive(false);
     }
     public void naoZera()
