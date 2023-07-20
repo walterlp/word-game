@@ -202,7 +202,7 @@ public class WordChecker : MonoBehaviour
         {
             //dando pontuação para o jogador de acordo com o tempo da fase exemplo: fase 1 tem 30 segundos para ser completada caso consiga o jogador recebe 30 pontos
             scoreManager.UpScore(currentGameData.valFase);
-           
+            //Debug.Log(currentGameData.valFase);
             //salvar o progresso do jogo
             var categoryName = currentGameData.selectedCategoryName;
             var currentBoardIndex = DataSaver.ReadCategoryCurrentIndexValues(categoryName);

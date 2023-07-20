@@ -21,6 +21,7 @@ public class DataSaver : MonoBehaviour
         PlayerPrefs.Save();
         
     }
+    
 
     public static void ClearGameData(GameLevelData levelData)
     {
@@ -31,7 +32,8 @@ public class DataSaver : MonoBehaviour
         }
         //desbloqueando o primeiro desafio para o jogador
         PlayerPrefs.SetInt(levelData.data[0].categoryName, 0);
-        
+        PlayerPrefs.DeleteKey("score");
+        //PlayerPrefs.SetInt("score",0);
         PlayerPrefs.Save();
     }
 

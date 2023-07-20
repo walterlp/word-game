@@ -19,11 +19,14 @@ public class ScoreManager : MonoBehaviour
 
     public void UpdateScoreText()
     {
-        scoreText.text = "Pontuação: " + currentGameData.score.ToString(); // Atualiza o texto com o valor da pontuação
+        scoreText.text = "Pontuação: " + PlayerPrefs.GetInt("score"); // Atualiza o texto com o valor da pontuação
     }
     public void UpScore(int tempo)
     {
         currentGameData.score = currentGameData.score + tempo;
+        PlayerPrefs.SetInt("score",currentGameData.score);
+
         UpdateScoreText();
+        
     }
 }
