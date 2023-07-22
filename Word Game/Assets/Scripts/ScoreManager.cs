@@ -23,7 +23,9 @@ public class ScoreManager : MonoBehaviour
     }
     public void UpScore(int tempo)
     {
+        currentGameData.score = PlayerPrefs.GetInt("score");
         currentGameData.score = currentGameData.score + tempo;
+        
         PlayerPrefs.SetInt("score",currentGameData.score);
 
         UpdateScoreText();

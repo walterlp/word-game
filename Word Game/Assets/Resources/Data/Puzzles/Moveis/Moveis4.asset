@@ -25,104 +25,104 @@ MonoBehaviour:
     - B
     - E
     - D
-    - 
-    - 
+    - N
+    - D
     - D
   - Size: 10
     Row:
-    - 
-    - 
+    - S
+    - X
     - C
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - Y
+    - U
+    - F
+    - N
+    - J
+    - M
     - E
   - Size: 10
     Row:
-    - 
-    - 
+    - F
+    - K
     - U
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - G
+    - M
+    - P
+    - R
+    - D
+    - X
     - S
   - Size: 10
     Row:
-    - 
-    - 
+    - G
+    - F
     - P
-    - 
-    - 
-    - 
-    - 
-    - 
+    - M
+    - S
+    - T
+    - P
+    - Q
     - S
     - K
   - Size: 10
     Row:
-    - 
-    - 
+    - E
+    - S
     - B
-    - 
-    - 
-    - 
-    - 
-    - 
+    - W
+    - J
+    - E
+    - R
+    - L
     - O
     - C
   - Size: 10
     Row:
-    - 
-    - 
+    - G
+    - X
     - O
-    - 
-    - 
-    - 
-    - 
-    - 
+    - D
+    - V
+    - C
+    - Y
+    - N
     - F
     - H
   - Size: 10
     Row:
-    - 
-    - 
+    - X
+    - M
     - A
-    - 
-    - 
-    - 
-    - 
-    - 
+    - G
+    - C
+    - O
+    - R
+    - A
     - A
     - A
   - Size: 10
     Row:
-    - 
-    - 
+    - Q
+    - G
     - R
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - O
+    - X
+    - X
+    - M
+    - K
+    - L
     - I
   - Size: 10
     Row:
-    - 
-    - 
+    - S
+    - V
     - D
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - R
+    - C
+    - U
+    - W
+    - A
+    - A
     - R
   - Size: 10
     Row:
@@ -131,11 +131,11 @@ MonoBehaviour:
     - B
     - L
     - E
-    - 
-    - 
-    - 
-    - 
-    - 
+    - J
+    - N
+    - H
+    - X
+    - B
   SearchWords:
   - Achado: 0
     Word: BUNKBED
