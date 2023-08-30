@@ -43,8 +43,10 @@ public class WordChecker : MonoBehaviour
 
     void Start()
     {
-        
-        scoreManager = FindObjectOfType<ScoreManager>();
+
+        ScoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>(); // identificando objeto pelo nome dado a ele na tela criada.
+        //scoreManager = FindObjectOfType<ScoreManager>();  identificando o objeto pelo tipo de objeto *script adicionado nele como componente 
+        // não utilizar o comando acima caso tenha mais de 1 componente do mesmo tipo (retorna uma lista contendo os componenetes do mesmo tipo) procure por nome ou faça um filtro.
         scoreManager.UpdateScoreText();
         currentGameData.selectedBoardData.ClearData();
 

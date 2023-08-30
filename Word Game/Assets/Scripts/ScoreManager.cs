@@ -31,4 +31,8 @@ public class ScoreManager : MonoBehaviour
         UpdateScoreText();
         
     }
+    public void FinalScoreText()
+    {
+        scoreText.text = "Pontuação Final: " + PlayerPrefs.GetInt("score"); // Atualiza o texto com o valor da pontuação
+    }
 }
