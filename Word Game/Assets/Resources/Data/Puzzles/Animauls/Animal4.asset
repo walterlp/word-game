@@ -18,10 +18,10 @@ MonoBehaviour:
   Board:
   - Size: 10
     Row:
-    - F
-    - R
+    - S
+    - A
+    - P
     - O
-    - G
     - H
     - O
     - T
@@ -30,7 +30,7 @@ MonoBehaviour:
     - R
   - Size: 10
     Row:
-    - A
+    - G
     - Y
     - H
     - D
@@ -42,7 +42,7 @@ MonoBehaviour:
     - B
   - Size: 10
     Row:
-    - D
+    - O
     - D
     - R
     - P
@@ -54,7 +54,7 @@ MonoBehaviour:
     - U
   - Size: 10
     Row:
-    - O
+    - L
     - P
     - S
     - G
@@ -66,7 +66,7 @@ MonoBehaviour:
     - T
   - Size: 10
     Row:
-    - L
+    - F
     - N
     - U
     - W
@@ -78,7 +78,7 @@ MonoBehaviour:
     - T
   - Size: 10
     Row:
-    - P
+    - I
     - Z
     - W
     - F
@@ -90,7 +90,7 @@ MonoBehaviour:
     - E
   - Size: 10
     Row:
-    - H
+    - N
     - A
     - N
     - N
@@ -102,7 +102,7 @@ MonoBehaviour:
     - R
   - Size: 10
     Row:
-    - I
+    - H
     - S
     - O
     - F
@@ -114,7 +114,7 @@ MonoBehaviour:
     - F
   - Size: 10
     Row:
-    - N
+    - O
     - O
     - J
     - D
@@ -140,16 +140,16 @@ MonoBehaviour:
   - Achado: 0
     Word: BUTTERFLY
   - Achado: 0
-    Word: FROG
+    Word: SAPO
   - Achado: 0
-    Word: DOLPHIN
+    Word: GOLFINHO
   - Achado: 0
     Word: ALLIGATOR
   - Achado: 0
     Word: FISH
   TraduzWords:
   - Traduzword: BORBOLETA
-  - Traduzword: SAPO
-  - Traduzword: GOLFINHO
+  - Traduzword: FROG
+  - Traduzword: DOLPHIN
   - Traduzword: "JACAR\xC9"
   - Traduzword: PEIXE

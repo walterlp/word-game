@@ -5,12 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class WordChecker : MonoBehaviour
 {
-
+    
     public GameData currentGameData;
     public GameLevelData gameLevelData;
-
-    private ScoreManager scoreManager;
-
     private string _word;
     private int _assignedPoints = 0;
     private int _completedWords = 0;
@@ -21,7 +18,8 @@ public class WordChecker : MonoBehaviour
     private Ray _currentRay = new Ray();
     private Vector3 _rayStartPosition;
     private List<int> _correctSquareList = new List<int>();
-
+    private ScoreManager scoreManager;
+    
 
     private void OnEnable()
     {
@@ -44,7 +42,7 @@ public class WordChecker : MonoBehaviour
     void Start()
     {
 
-        ScoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>(); // identificando objeto pelo nome dado a ele na tela criada.
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>(); // identificando objeto pelo nome dado a ele na tela criada.
         //scoreManager = FindObjectOfType<ScoreManager>();  identificando o objeto pelo tipo de objeto *script adicionado nele como componente 
         // não utilizar o comando acima caso tenha mais de 1 componente do mesmo tipo (retorna uma lista contendo os componenetes do mesmo tipo) procure por nome ou faça um filtro.
         scoreManager.UpdateScoreText();

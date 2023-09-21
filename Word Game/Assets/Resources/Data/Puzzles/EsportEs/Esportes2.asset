@@ -35,7 +35,7 @@ MonoBehaviour:
     - S
     - A
     - S
-    - O
+    - U
   - Size: 8
     Row:
     - V
@@ -45,7 +45,7 @@ MonoBehaviour:
     - O
     - S
     - W
-    - O
+    - T
   - Size: 8
     Row:
     - P
@@ -55,7 +55,7 @@ MonoBehaviour:
     - O
     - E
     - M
-    - T
+    - E
   - Size: 8
     Row:
     - T
@@ -75,7 +75,7 @@ MonoBehaviour:
     - R
     - A
     - D
-    - A
+    - O
   - Size: 8
     Row:
     - G
@@ -95,15 +95,15 @@ MonoBehaviour:
     - A
     - L
     - E
-    - L
+    - E
   SearchWords:
-  - Achado: 0
+  - Achado: 1
     Word: JUDO
   - Achado: 0
     Word: BASEBALL
   - Achado: 0
-    Word: FOOTBALL
+    Word: FUTEBOL
   TraduzWords:
   - Traduzword: JUDO
   - Traduzword: BEISEBOL
-  - Traduzword: FUTEBOL
+  - Traduzword: FOOTBALL

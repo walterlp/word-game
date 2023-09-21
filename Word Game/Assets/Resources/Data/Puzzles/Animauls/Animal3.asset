@@ -18,7 +18,7 @@ MonoBehaviour:
   Board:
   - Size: 8
     Row:
-    - R
+    - C
     - E
     - R
     - U
@@ -28,19 +28,19 @@ MonoBehaviour:
     - T
   - Size: 8
     Row:
-    - N
-    - S
-    - G
-    - H
+    - A
+    - C
+    - A
+    - V
     - T
     - D
     - G
     - D
   - Size: 8
     Row:
-    - D
+    - C
     - L
-    - Z
+    - W
     - U
     - B
     - O
@@ -48,65 +48,65 @@ MonoBehaviour:
     - K
   - Size: 8
     Row:
-    - O
+    - H
     - P
     - I
     - O
     - F
-    - G
+    - N
     - G
     - T
   - Size: 8
     Row:
-    - N
+    - O
     - D
     - P
     - P
     - Q
-    - J
+    - K
     - L
     - K
   - Size: 8
     Row:
-    - K
+    - R
     - L
     - B
     - A
     - I
-    - T
+    - E
     - R
     - S
   - Size: 8
     Row:
-    - E
+    - R
     - A
     - A
     - X
     - R
-    - H
+    - Y
     - U
     - Z
   - Size: 8
     Row:
-    - Y
+    - O
     - V
     - D
     - M
     - A
-    - C
-    - O
+    - A
+    - R
     - W
   SearchWords:
   - Achado: 0
-    Word: DOG
+    Word: CACHORRO
   - Achado: 0
     Word: DONKEY
   - Achado: 0
     Word: GOAT
   - Achado: 0
-    Word: COW
+    Word: VACA
   TraduzWords:
-  - Traduzword: CACHORRO
+  - Traduzword: DOG
   - Traduzword: BURRO
   - Traduzword: CABRA
-  - Traduzword: VACA
+  - Traduzword: COW

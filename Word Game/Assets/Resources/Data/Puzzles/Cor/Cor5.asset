@@ -19,13 +19,13 @@ MonoBehaviour:
   - Size: 10
     Row:
     - K
-    - Q
-    - E
-    - V
-    - J
-    - U
-    - Y
-    - X
+    - M
+    - A
+    - M
+    - A
+    - R
+    - R
+    - O
     - M
     - B
   - Size: 10
@@ -60,7 +60,7 @@ MonoBehaviour:
     - U
     - I
     - G
-    - K
+    - E
     - T
     - Q
     - C
@@ -140,9 +140,9 @@ MonoBehaviour:
   - Achado: 1
     Word: KHAKI
   - Achado: 1
-    Word: BROWN
+    Word: MARROM
   - Achado: 0
-    Word: BEIGE
+    Word: BEGE
   - Achado: 0
     Word: PURPLE
   - Achado: 1
@@ -150,9 +150,9 @@ MonoBehaviour:
   - Achado: 1
     Word: BLACK
   TraduzWords:
-  - Traduzword: CAQUI
-  - Traduzword: MARROM
-  - Traduzword: BEGE
+  - Traduzword: "C\xC1QUI"
+  - Traduzword: BROWN
+  - Traduzword: BEIGE
   - Traduzword: ROXO
   - Traduzword: ROSA
   - Traduzword: PRETO

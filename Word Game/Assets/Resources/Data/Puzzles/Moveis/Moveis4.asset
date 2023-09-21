@@ -19,13 +19,13 @@ MonoBehaviour:
   - Size: 10
     Row:
     - B
-    - U
-    - N
-    - K
-    - B
     - E
-    - D
-    - N
+    - L
+    - I
+    - C
+    - H
+    - E
+    - M
     - D
     - D
   - Size: 10
@@ -37,31 +37,31 @@ MonoBehaviour:
     - U
     - F
     - N
-    - J
+    - E
     - M
     - E
   - Size: 10
     Row:
-    - F
+    - O
     - K
     - U
     - G
-    - M
+    - P
     - P
     - R
-    - D
+    - S
     - X
     - S
   - Size: 10
     Row:
-    - G
+    - F
     - F
     - P
     - M
     - S
     - T
     - P
-    - Q
+    - A
     - S
     - K
   - Size: 10
@@ -90,7 +90,7 @@ MonoBehaviour:
     - H
   - Size: 10
     Row:
-    - X
+    - A
     - M
     - A
     - G
@@ -102,7 +102,7 @@ MonoBehaviour:
     - A
   - Size: 10
     Row:
-    - Q
+    - F
     - G
     - R
     - O
@@ -114,7 +114,7 @@ MonoBehaviour:
     - I
   - Size: 10
     Row:
-    - S
+    - A
     - V
     - D
     - R
@@ -126,7 +126,7 @@ MonoBehaviour:
     - R
   - Size: 10
     Row:
-    - T
+    - S
     - A
     - B
     - L
@@ -138,18 +138,18 @@ MonoBehaviour:
     - B
   SearchWords:
   - Achado: 0
-    Word: BUNKBED
+    Word: BELICHE
   - Achado: 0
     Word: DESKCHAIR
   - Achado: 0
     Word: CUPBOARD
   - Achado: 0
-    Word: TABLE
+    Word: MESA
   - Achado: 0
     Word: SOFA
   TraduzWords:
-  - Traduzword: BELICHE
+  - Traduzword: BUNKBED
   - Traduzword: CADEIRA DE ESCRITORIO
   - Traduzword: CRISTALEIRA
-  - Traduzword: MESA
+  - Traduzword: TABLE
   - Traduzword: SOFA

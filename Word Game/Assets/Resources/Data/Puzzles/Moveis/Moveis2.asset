@@ -18,10 +18,10 @@ MonoBehaviour:
   Board:
   - Size: 6
     Row:
-    - T
+    - M
+    - E
+    - S
     - A
-    - B
-    - L
     - E
     - C
   - Size: 6
@@ -66,12 +66,12 @@ MonoBehaviour:
     - T
   SearchWords:
   - Achado: 0
-    Word: TABLE
+    Word: MESA
   - Achado: 0
     Word: CHAIR
   - Achado: 0
     Word: CLOSET
   TraduzWords:
-  - Traduzword: MESA
+  - Traduzword: TABLE
   - Traduzword: CADEIRA
   - Traduzword: GUARDA-ROUPA

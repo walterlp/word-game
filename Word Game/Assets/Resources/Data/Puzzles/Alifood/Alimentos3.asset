@@ -20,10 +20,10 @@ MonoBehaviour:
     Row:
     - F
     - Y
-    - D
-    - N
-    - A
+    - E
     - C
+    - O
+    - D
     - A
     - I
   - Size: 8
@@ -35,7 +35,7 @@ MonoBehaviour:
     - I
     - H
     - K
-    - W
+    - F
   - Size: 8
     Row:
     - B
@@ -45,7 +45,7 @@ MonoBehaviour:
     - A
     - I
     - U
-    - U
+    - R
   - Size: 8
     Row:
     - W
@@ -65,7 +65,7 @@ MonoBehaviour:
     - N
     - K
     - A
-    - O
+    - N
   - Size: 8
     Row:
     - C
@@ -75,7 +75,7 @@ MonoBehaviour:
     - S
     - E
     - R
-    - F
+    - G
   - Size: 8
     Row:
     - A
@@ -85,7 +85,7 @@ MonoBehaviour:
     - W
     - N
     - D
-    - M
+    - O
   - Size: 8
     Row:
     - X
@@ -98,15 +98,15 @@ MonoBehaviour:
     - J
   SearchWords:
   - Achado: 0
-    Word: CANDY
+    Word: DOCE
   - Achado: 0
     Word: PIE
   - Achado: 0
     Word: CHEESE
   - Achado: 0
-    Word: CHICKEN
+    Word: FRANGO
   TraduzWords:
-  - Traduzword: BALA
+  - Traduzword: CANDY
   - Traduzword: TORTA
   - Traduzword: QUEIJO
-  - Traduzword: FRANGO
+  - Traduzword: CHIKEN

@@ -18,23 +18,23 @@ MonoBehaviour:
   Board:
   - Size: 6
     Row:
-    - R
+    - G
     - U
     - O
     - D
     - B
-    - B
+    - A
   - Size: 6
     Row:
-    - E
+    - R
     - G
     - W
     - I
     - H
-    - L
+    - Z
   - Size: 6
     Row:
-    - D
+    - E
     - Y
     - M
     - B
@@ -42,12 +42,12 @@ MonoBehaviour:
     - U
   - Size: 6
     Row:
-    - L
+    - Y
     - P
     - A
     - D
     - E
-    - E
+    - L
   - Size: 6
     Row:
     - H
@@ -65,10 +65,13 @@ MonoBehaviour:
     - N
     - H
   SearchWords:
-  - Word: RED
-  - Word: GREEN
-  - Word: BLUE
+  - Achado: 1
+    Word: GREY
+  - Achado: 1
+    Word: GREEN
+  - Achado: 1
+    Word: AZUL
   TraduzWords:
-  - Traduzword: VERMELHO
+  - Traduzword: CINZA
   - Traduzword: VERDE
-  - Traduzword: AZUL
+  - Traduzword: BLUE

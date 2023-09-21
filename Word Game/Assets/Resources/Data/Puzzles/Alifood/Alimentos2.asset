@@ -18,19 +18,19 @@ MonoBehaviour:
   Board:
   - Size: 6
     Row:
-    - M
-    - I
     - L
-    - K
-    - U
-    - D
+    - E
+    - I
+    - T
+    - E
+    - E
   - Size: 6
     Row:
-    - S
-    - Z
-    - C
-    - G
-    - G
+    - K
+    - A
+    - O
+    - V
+    - O
     - E
   - Size: 6
     Row:
@@ -66,15 +66,15 @@ MonoBehaviour:
     - C
   SearchWords:
   - Achado: 0
-    Word: COFFE
-  - Achado: 0
-    Word: EGG
-  - Achado: 0
-    Word: MILK
-  - Achado: 0
+    Word: COFFEE
+  - Achado: 1
+    Word: OVO
+  - Achado: 1
+    Word: LEITE
+  - Achado: 1
     Word: CAKE
   TraduzWords:
-  - Traduzword: CAFE
-  - Traduzword: OVO
-  - Traduzword: LEITE
+  - Traduzword: "CAF\xC9"
+  - Traduzword: EGG
+  - Traduzword: MILK
   - Traduzword: BOLO

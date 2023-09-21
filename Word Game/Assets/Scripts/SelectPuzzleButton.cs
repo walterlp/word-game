@@ -46,7 +46,7 @@ public class SelectPuzzleButton : MonoBehaviour
     private void OnButtonClick()
     {
         gameData.selectedCategoryName = gameObject.name;
-        SceneManager.LoadScene(gameSceneName);
+        SceneManager.LoadSceneAsync(gameSceneName);
     }
 
     private void UpdateButtonInfo()

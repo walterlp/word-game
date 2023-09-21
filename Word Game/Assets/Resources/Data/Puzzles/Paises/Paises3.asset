@@ -27,25 +27,25 @@ MonoBehaviour:
     - R
     - P
     - L
-    - Y
+    - A
   - Size: 10
     Row:
     - O
     - E
     - G
-    - Y
-    - P
+    - I
     - T
+    - O
     - X
     - F
     - B
-    - V
+    - L
   - Size: 10
     Row:
     - E
     - C
     - R
-    - R
+    - T
     - H
     - R
     - J
@@ -57,37 +57,37 @@ MonoBehaviour:
     - C
     - N
     - X
-    - M
+    - A
     - Y
     - I
     - F
     - B
     - T
-    - V
+    - M
   - Size: 10
     Row:
     - U
     - O
     - R
-    - R
+    - L
     - A
     - R
     - C
     - O
     - A
-    - B
+    - A
   - Size: 10
     Row:
     - A
     - R
     - W
-    - V
+    - Y
     - X
     - N
     - A
     - P
     - L
-    - Z
+    - N
   - Size: 10
     Row:
     - D
@@ -99,7 +99,7 @@ MonoBehaviour:
     - Y
     - I
     - Y
-    - C
+    - H
   - Size: 10
     Row:
     - O
@@ -111,7 +111,7 @@ MonoBehaviour:
     - H
     - V
     - V
-    - F
+    - A
   - Size: 10
     Row:
     - R
@@ -140,13 +140,13 @@ MonoBehaviour:
   - Achado: 0
     Word: ECUADOR
   - Achado: 0
-    Word: EGYPT
+    Word: EGITO
   - Achado: 0
-    Word: GERMANY
+    Word: ALEMANHA
   - Achado: 0
     Word: ITALY
   TraduzWords:
   - Traduzword: EQUADOR
-  - Traduzword: EGITO
-  - Traduzword: ALEMANHA
+  - Traduzword: EGYPT
+  - Traduzword: GERMANY
   - Traduzword: "IT\xC1LIA"

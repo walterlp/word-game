@@ -18,54 +18,54 @@ MonoBehaviour:
   Board:
   - Size: 8
     Row:
-    - R
-    - R
-    - T
     - B
-    - A
-    - U
     - L
-    - B
+    - A
+    - C
+    - K
+    - U
+    - C
+    - O
   - Size: 8
     Row:
-    - W
+    - L
     - X
     - N
     - N
     - L
     - T
-    - D
-    - L
+    - I
+    - H
   - Size: 8
     Row:
-    - N
+    - A
     - X
     - M
     - M
     - R
     - A
-    - X
-    - U
+    - N
+    - L
   - Size: 8
     Row:
-    - D
+    - K
     - A
     - V
     - B
     - G
     - W
-    - C
+    - Z
     - E
   - Size: 8
     Row:
-    - E
+    - I
     - W
-    - V
-    - S
-    - R
+    - H
+    - I
+    - L
     - D
-    - R
-    - K
+    - A
+    - M
   - Size: 8
     Row:
     - W
@@ -75,7 +75,7 @@ MonoBehaviour:
     - E
     - J
     - B
-    - V
+    - R
   - Size: 8
     Row:
     - X
@@ -85,7 +85,7 @@ MonoBehaviour:
     - Y
     - E
     - N
-    - Z
+    - E
   - Size: 8
     Row:
     - R
@@ -95,18 +95,18 @@ MonoBehaviour:
     - G
     - I
     - L
-    - G
+    - V
   SearchWords:
   - Achado: 0
-    Word: BLUE
+    Word: VERMELHO
   - Achado: 0
     Word: WHITE
   - Achado: 0
     Word: BLACK
   - Achado: 0
-    Word: GREY
+    Word: CINZA
   TraduzWords:
-  - Traduzword: AZUL
+  - Traduzword: RED
   - Traduzword: BRANCO
   - Traduzword: PRETO
-  - Traduzword: CINZA
+  - Traduzword: GREY

@@ -20,13 +20,13 @@ MonoBehaviour:
     Row:
     - C
     - A
-    - O
-    - R
+    - M
     - A
+    - R
     - N
     - G
     - E
-    - H
+    - O
     - L
   - Size: 10
     Row:
@@ -38,7 +38,7 @@ MonoBehaviour:
     - M
     - I
     - M
-    - P
+    - R
     - G
   - Size: 10
     Row:
@@ -50,7 +50,7 @@ MonoBehaviour:
     - B
     - M
     - I
-    - U
+    - A
     - E
   - Size: 10
     Row:
@@ -62,7 +62,7 @@ MonoBehaviour:
     - Y
     - U
     - Q
-    - R
+    - N
     - N
   - Size: 10
     Row:
@@ -74,7 +74,7 @@ MonoBehaviour:
     - V
     - B
     - V
-    - P
+    - G
     - L
   - Size: 10
     Row:
@@ -86,14 +86,14 @@ MonoBehaviour:
     - T
     - P
     - D
-    - L
+    - E
     - B
   - Size: 10
     Row:
     - L
     - Z
     - N
-    - V
+    - R
     - F
     - J
     - V
@@ -106,7 +106,7 @@ MonoBehaviour:
     - M
     - S
     - T
-    - H
+    - O
     - X
     - A
     - P
@@ -126,27 +126,27 @@ MonoBehaviour:
     - O
   - Size: 10
     Row:
-    - Y
+    - A
+    - M
+    - A
+    - R
     - E
     - L
-    - L
     - O
-    - W
-    - F
     - C
     - P
     - H
   SearchWords:
-  - Achado: 0
+  - Achado: 1
     Word: ORANGE
   - Achado: 0
-    Word: PURPLE
-  - Achado: 0
-    Word: YELLOW
-  - Achado: 0
+    Word: ROXO
+  - Achado: 1
+    Word: AMARELO
+  - Achado: 1
     Word: CARAMEL
   TraduzWords:
   - Traduzword: LARANJA
-  - Traduzword: ROXO
-  - Traduzword: AMARELO
+  - Traduzword: PURPLE
+  - Traduzword: YELLOW
   - Traduzword: CARAMELO

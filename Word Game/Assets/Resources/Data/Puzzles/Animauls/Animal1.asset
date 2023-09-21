@@ -21,12 +21,12 @@ MonoBehaviour:
     - B
     - T
     - J
-    - Q
+    - O
   - Size: 4
     Row:
     - A
     - E
-    - D
+    - T
     - C
   - Size: 4
     Row:
@@ -36,7 +36,7 @@ MonoBehaviour:
     - T
   - Size: 4
     Row:
-    - D
+    - G
     - D
     - M
     - O
@@ -44,7 +44,7 @@ MonoBehaviour:
   - Achado: 0
     Word: BAT
   - Achado: 0
-    Word: CAT
+    Word: GATO
   TraduzWords:
   - Traduzword: MORCEGO
-  - Traduzword: GATO
+  - Traduzword: CAT

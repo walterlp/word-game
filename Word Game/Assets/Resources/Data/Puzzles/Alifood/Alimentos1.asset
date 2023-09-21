@@ -65,10 +65,10 @@ MonoBehaviour:
     - K
     - R
   SearchWords:
-  - Achado: 0
+  - Achado: 1
     Word: BREAD
-  - Achado: 0
+  - Achado: 1
     Word: BUTTER
   TraduzWords:
-  - Traduzword: PAO
+  - Traduzword: "P\xC3O"
   - Traduzword: MANTEIGA

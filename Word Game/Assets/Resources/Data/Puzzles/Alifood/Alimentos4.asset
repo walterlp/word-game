@@ -23,9 +23,9 @@ MonoBehaviour:
     - L
     - A
     - D
-    - W
+    - A
     - X
-    - J
+    - S
   - Size: 8
     Row:
     - A
@@ -45,7 +45,7 @@ MonoBehaviour:
     - O
     - E
     - C
-    - I
+    - C
   - Size: 8
     Row:
     - D
@@ -55,7 +55,7 @@ MonoBehaviour:
     - J
     - Z
     - C
-    - C
+    - O
   - Size: 8
     Row:
     - W
@@ -90,29 +90,29 @@ MonoBehaviour:
     Row:
     - H
     - J
-    - B
-    - T
-    - E
-    - C
-    - I
+    - A
+    - R
+    - R
+    - O
+    - Z
     - R
   SearchWords:
   - Achado: 0
     Word: SANDWICH
   - Achado: 0
-    Word: SALAD
+    Word: SALADA
   - Achado: 0
-    Word: RICE
+    Word: ARROZ
   - Achado: 0
     Word: APPLE
   - Achado: 0
-    Word: JUICE
+    Word: SUCO
   - Achado: 0
     Word: TOAST
   TraduzWords:
-  - Traduzword: SANDUICHE
-  - Traduzword: SALADA
-  - Traduzword: ARROZ
-  - Traduzword: "MA\xC7A"
-  - Traduzword: SUCO
+  - Traduzword: "SANDU\xCDCHE"
+  - Traduzword: SALAD
+  - Traduzword: RICE
+  - Traduzword: "MA\xC7\xC3"
+  - Traduzword: JUICE
   - Traduzword: TORRADA

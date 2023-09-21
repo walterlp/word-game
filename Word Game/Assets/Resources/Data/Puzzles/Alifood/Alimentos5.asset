@@ -25,7 +25,7 @@ MonoBehaviour:
     - S
     - S
     - V
-    - C
+    - M
   - Size: 8
     Row:
     - G
@@ -35,27 +35,27 @@ MonoBehaviour:
     - W
     - T
     - D
-    - O
+    - I
   - Size: 8
     Row:
     - I
     - R
     - S
-    - J
+    - R
     - B
     - A
     - Z
-    - R
+    - L
   - Size: 8
     Row:
     - S
     - R
     - K
     - T
-    - E
-    - G
-    - G
     - N
+    - G
+    - G
+    - H
   - Size: 8
     Row:
     - N
@@ -65,17 +65,17 @@ MonoBehaviour:
     - A
     - F
     - C
-    - I
+    - O
   - Size: 8
     Row:
     - I
     - T
     - M
     - R
-    - G
+    - E
     - V
     - R
-    - O
+    - R
   - Size: 8
     Row:
     - O
@@ -92,7 +92,7 @@ MonoBehaviour:
     - Z
     - O
     - R
-    - C
+    - G
     - C
     - R
     - O
@@ -102,11 +102,11 @@ MonoBehaviour:
   - Achado: 0
     Word: CARROT
   - Achado: 0
-    Word: CORN
+    Word: MILHO
   - Achado: 0
     Word: EGG
   TraduzWords:
-  - Traduzword: MACARRAO
+  - Traduzword: "MACARR\xC3O"
   - Traduzword: CENOURA
-  - Traduzword: MILHO
+  - Traduzword: CORN
   - Traduzword: OVO

@@ -18,7 +18,7 @@ MonoBehaviour:
   Board:
   - Size: 6
     Row:
-    - B
+    - U
     - F
     - R
     - X
@@ -26,7 +26,7 @@ MonoBehaviour:
     - C
   - Size: 6
     Row:
-    - E
+    - R
     - V
     - S
     - A
@@ -34,7 +34,7 @@ MonoBehaviour:
     - A
   - Size: 6
     Row:
-    - A
+    - S
     - G
     - Q
     - A
@@ -42,7 +42,7 @@ MonoBehaviour:
     - M
   - Size: 6
     Row:
-    - R
+    - O
     - S
     - B
     - T
@@ -66,12 +66,12 @@ MonoBehaviour:
     - E
   SearchWords:
   - Achado: 0
-    Word: BEAR
+    Word: URSO
   - Achado: 0
     Word: CAMEL
   - Achado: 0
     Word: FOX
   TraduzWords:
-  - Traduzword: URSO
+  - Traduzword: BEAR
   - Traduzword: CAMELO
   - Traduzword: RAPOSA
